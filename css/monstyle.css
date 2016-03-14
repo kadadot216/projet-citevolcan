@@ -1,0 +1,176 @@
+/* - - - - - - - - - - - - - - - - - - - - 
+GENERAL
+- - - - - - - - - - - - - - - - - - - - */
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - 
+NAV-MOBILE
+- - - - - - - - - - - - - - - - - - - - */
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - 
+NAV-DESKTOP
+- - - - - - - - - - - - - - - - - - - - */
+.nav-desktop {
+	background-color: #333;
+	height: 80px;
+	padding: 0;
+}
+
+.site-logo {
+	color: white;
+	line-height: 80px;
+}
+
+/* Juste recopy the strongest rule in Inspector then paste it there */
+/*.top-bar ul { 
+	background-color: white;
+	}*/
+
+	/*But we could do it especially with an user defined node that is the parent of the node*/
+	.nav-desktop .menu-desktop {
+		line-height: 80px;
+		background-color: transparent;
+	}
+
+	.menu > li > a {
+		display: inline-block;
+		line-height: 80px;
+		padding-top: 0;
+		padding-bottom: 0;
+
+	}
+
+	.menu > li > a:hover {
+		background-color: rgba(255,255,255,0.05);
+	}
+
+/* - - - - - - - - - - - - - - - - - - - - 
+HERO
+- - - - - - - - - - - - - - - - - - - - */
+.hero {
+	background-color: #999;
+	padding: 80px 0px;
+	/*height: 400px;*/
+	background-image: url("../img/pattern.png");
+}
+
+.hero h1,
+.hero p {
+	width: 70%;
+}
+
+#ensemble {
+	position: relative;
+}
+
+
+
+.btn-perso1 {
+	font-size: 2.5rem;
+	padding: .5em 2em;
+	margin: 0 -50px;
+}
+
+.btn-perso2 {
+	font-size: 2rem;
+	padding: .3em 5em;
+	display: block;
+}
+
+.couleur-perso1 {
+	background-color: #892A2A;
+}
+
+.couleur-perso1:hover, .couleur-perso1:active {
+	background-color: #B53A3A;
+}
+
+#webcam {
+	margin: 40px 0;
+}
+
+.next-to {
+		float: left;
+		position : absolute;
+		top:40%
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - 
+MAIN SECTION
+- - - - - - - - - - - - - - - - - - - - */
+.main {
+	padding: 80px 0px;
+	background-color: #333;
+}
+
+.main p {
+	color: #666;
+}
+
+.main h1 {
+	color: #777;
+}
+
+.main hr {
+	border-color: #222;
+}
+
+
+
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - 
+FOOTER
+- - - - - - - - - - - - - - - - - - - - */
+
+footer {
+	background-color: #222;
+	padding: 80px 0px;
+	font-size: 12px;
+}
+
+footer h4 {
+	color: rgba(255,255,255,0.8);
+	font-size: 1.3em;
+}
+
+footer a {
+	display: block;
+	color: rgba(255,255,255,0.8);
+	font-size: 0.8em;
+}
+
+footer a span {
+	font-weight: bold;
+	color: rgba(255,255,255,0.8);
+}
+
+footer a:hover {
+	color: rgba(255,255,255,0.5);
+}
+
+footer hr {
+	border-color: rgba(255,255,255,0.05);
+	margin: 10px 0;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - 
+MEDIA QUERIES
+- - - - - - - - - - - - - - - - - - - - */
+
+@media (max-width: 639px) {
+	.nav-desktop {
+		display: none;
+	}
+}
