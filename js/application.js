@@ -86,11 +86,96 @@ $(".hero").on("click","a.capture", function(event) {
     {
       $(this).slideUp(function(){$(this).remove();});
       $(btnNon).slideUp(function(){$(this).remove();});
-      $(message).slideUp(function(){$(this).remove();});
-      insert.animate({'top':'40%'});
-      $('a.capture').slideDown();
+      $(message).slideUp(function(){
+        $(this).remove();
+        changeTitle(1);
+        appendBloc();
+        Slider();
+      });
     });
 
   });
 });
 
+
+function changeTitle(param)
+{
+  if (param === 1)
+  {
+    $("h1").text("2 - Effectuer des changements");
+  }
+  else if (param === 2)
+    {$("h1").text("3 - Analyse de formes");}
+}
+
+function appendBloc()
+{
+  var superDiv = 
+"<div class='filterField'>" +
+"<label>Price:</label>" +
+"<table>" +
+"  <tr>" +
+"    <td><input type='range' name='bright' id='bright' min='-100' max='100' value='100' /></td>" +
+"    <td><div class='rangeValue'><div id='valueBright'>0</div> Luminosité</div></td>" +
+"  </tr>" +
+"  <tr>" +
+"    <td><input type='range' name='contrast' id='contrast' min='-100' max='100' value='100' /></td>" +
+"    <td><div class='rangeValue'><div id='valueContr'>0</div> Contraste</div></td>" +
+"  </tr>" +
+"  <tr>" +
+"    <td><input type='range' name='nett' id='nett' min='-100' max='100' value='100' /></td>" +
+"    <td><div class='rangeValue'><div id='valueNett'>0</div> Nettetté</div></td>" +
+"  </tr>" +
+"  <tr>" +
+"  <td><input type='checkbox' name='checkGreyscale' id='checkGreyscale' /></td>" +
+"  <td>Noir et Blanc</td>" +
+"</tr>" +
+"<tr>" +
+"  <td><input type='checkbox' name='checkNegate' id='checkNegate' /></td>" +
+"  <td>Négatif</td>" +
+"</tr>" +
+"</table>" +
+"</div>";
+
+  $(".next-to").append(superDiv);
+  $(".next-to").css({'top':'100%'},400).animate({'top':'5%'},400);
+
+}
+
+function Slider() {
+
+  $(':checkbox:checked').prop('checked',false);
+  
+   var brightVal = $('#bright').val(0),
+       contrVal = $('#contrast').val(0),
+       nettVal = $('#nett').val(0),
+       greyscale=0, negate=0;
+
+
+$("#bright, #contrast, #nett, #checkGreyscale, #checkNegate").on('change', function () {
+
+  Actualiser();
+
+});// fin de onchange()
+
+} // fin slider()
+
+function Actualiser()
+{
+
+   brightVal = $('#bright').val();
+   contrVal = $('#contrast').val();
+   nettVal = $('#nett').val();
+
+    if( $( "#checkGreyscale" ).is(':checked')) {greyscale = 1; } 
+    else {greyscale = 0; }
+
+    if( $( "#checkNegate" ).is(':checked')) {negate = 1; } 
+    else {negate = 0; }
+
+
+   $("#valueBright").html(brightVal);
+   $("#valueContr").html(contrVal);
+   $("#valueNett").html(nettVal);
+
+ }
