@@ -18,11 +18,15 @@ var getStream = function()
 function getCanvas() {
 
   var URL = apachePrefix+"/?action=snapshot";
+  // ça va servir pour créer un historique avec une BDD
   $.ajax({
         type:'POST',
         url:'img.php',
         data:{dataURL:URL},
     success: function(data){
+      DataURL = data.replace("<img src='data:image/jpeg;base64,","");
+      DataURL = DataURL.replace("' />","");
+      console.log(DataURL);
     $('#webcam').html(data);
 
     },
@@ -123,7 +127,7 @@ function appendBloc()
 "    <td><div class='rangeValue'><div id='valueContr'>0</div> Contraste</div></td>" +
 "  </tr>" +
 "  <tr>" +
-"    <td><input type='range' name='nett' id='nett' min='-100' max='100' value='100' /></td>" +
+"    <td><input type='range' name='nett' id='nett' min='-6' max='6' value='6' /></td>" +
 "    <td><div class='rangeValue'><div id='valueNett'>0</div> Nettetté</div></td>" +
 "  </tr>" +
 "  <tr>" +
@@ -133,6 +137,12 @@ function appendBloc()
 "<tr>" +
 "  <td><input type='checkbox' name='checkNegate' id='checkNegate' /></td>" +
 "  <td>Négatif</td>" +
+"</tr>" +
+"<tr>" +
+"  <td colspan='2' style='padding:0;'><button class='success button etSValid' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Valider</button></td>" +
+"</tr>" +
+"<tr>" +
+"  <td colspan='2' style='padding:0;'><button class='alert button etSRetour' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Retour</button></td>" +
 "</tr>" +
 "</table>" +
 "</div>";
@@ -158,6 +168,13 @@ $("#bright, #contrast, #nett, #checkGreyscale, #checkNegate").on('change', funct
 
 });// fin de onchange()
 
+$(".etSValid").on('click', function () {
+  alert("ok");
+});
+$(".etSRetour").on('click', function () {
+  alert("Je retourne");
+});
+
 } // fin slider()
 
 function Actualiser()
@@ -177,5 +194,26 @@ function Actualiser()
    $("#valueBright").html(brightVal);
    $("#valueContr").html(contrVal);
    $("#valueNett").html(nettVal);
+
+
+                $.ajax({
+            type:"POST",
+            url: "data.php",
+            data: {dataString: DataURL,
+                  brightness: brightVal,
+                  contrast: contrVal,
+                  nett: nettVal,
+                  greyscale: greyscale,
+                  negate: negate                  
+                  },
+            success: function(data){
+              console.log(data);
+              $("#webcam").html(data);
+            },
+            error: function(err){
+              console.log(err);
+            }
+
+    });
 
  }
