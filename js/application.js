@@ -7,7 +7,7 @@ var DataURL;
 
 var getStream = function()
 {
-  $('#webcam').html("<img src='"+apachePrefix+"/?action=stream' />");
+  $('#webcam').html("<img src='fff.jpeg' />");
 };
 
 /*var getSnap = function()
@@ -17,18 +17,15 @@ var getStream = function()
 
 function getCanvas() {
 
-  var URL = apachePrefix+"/?action=snapshot";
+  var URL = "f33.jpg";
   // ça va servir pour créer un historique avec une BDD
   $.ajax({
         type:'POST',
         url:'img.php',
         data:{dataURL:URL},
     success: function(data){
-      DataURL = data.replace("<img src='data:image/jpeg;base64,","");
-      DataURL = DataURL.replace("' />","");
-      console.log(DataURL);
-    $('#webcam').html(data);
-
+      drawCanvas(data);
+      DataURL = data.replace("data:image/jpeg;base64,","");
     },
     error: function(err) {
       console.table(err);
@@ -40,17 +37,17 @@ function getCanvas() {
   });
 }
 
-/*function drawCanvas(text)
+function drawCanvas(text)
 {
-    $('#webcam').html("<canvas id='MyCanvas'></canvas>");
+    $('#webcam').html("<canvas id='MyCanvas' height='480' width='640'></canvas>");
     var myCanvas = document.getElementById('MyCanvas');
     var ctx = myCanvas.getContext('2d');
     var img = new Image();
     img.onload = function(){
-    ctx.drawImage(img,0,0,163,120); // Or at whatever offset you like
+    ctx.drawImage(img,0,0); // Or at whatever offset you like
 };
 img.src = text;
-}*/
+}
 
 $(document).ready(function() {
 
@@ -95,6 +92,7 @@ $(".hero").on("click","a.capture", function(event) {
         changeTitle(1);
         appendBloc();
         Slider();
+        ZoomImage();
       });
     });
 
@@ -132,7 +130,7 @@ function appendBloc()
 "  </tr>" +
 "  <tr>" +
 "  <td><input type='checkbox' name='checkGreyscale' id='checkGreyscale' /></td>" +
-"  <td>Noir et Blanc</td>" +
+"  <td>Balance des blancs</td>" +
 "</tr>" +
 "<tr>" +
 "  <td><input type='checkbox' name='checkNegate' id='checkNegate' /></td>" +
@@ -208,7 +206,7 @@ function Actualiser()
                   },
             success: function(data){
               console.log(data);
-              $("#webcam").html(data);
+              drawCanvas(data);
             },
             error: function(err){
               console.log(err);
@@ -217,3 +215,41 @@ function Actualiser()
     });
 
  }
+
+function ZoomImage()
+{
+  var divZoomer = "<div class='zoom'>" +
+"        Scale X : " +
+"      <input type='range' id='scalexy' value='0' min='0' max='100' /><span id='scalexyVal'></span>" +
+"      <button class='button success' id='target'>Resize Image</button>" +
+"</div>";
+
+  $(divZoomer).appendTo("#ensemble");
+
+$(function(){
+   var scaley = $('#scalexy').val();
+   var scalex = $('#scalexy').val();
+   var myJcrop = $.Jcrop('#MyCanvas', {
+       aspectRatio: 1,
+       onSelect: updateCoords,
+       boxWidth: scalex, 
+       boxHeight: scaley
+   });
+
+   $('#target').click(function() {
+      myJcrop.destroy();
+      scalex = $('#scalexy').val();
+      scaley = $('#scalexy').val();
+      myJcrop = $.Jcrop('#MyCanvas', {
+          aspectRatio: 1,
+          onSelect: updateCoords,
+          boxWidth: scalex, 
+          boxHeight: scaley
+      });
+      console.log(scaley + scalex);
+      $("#scalexyVal").html(scaley);
+   });
+
+ });
+}
+
