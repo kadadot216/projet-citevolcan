@@ -61,33 +61,33 @@ $(document).ready(function() {
 
 $(".hero").on("click","a.capture", function(event) {
   event.preventDefault();
-  var insert = $(this).parent();
-  var btnOui = $("<a href='#' class='btn-perso2 hollow success button'>Oui</a>");
-  var btnNon = $("<a href='#' class='btn-perso2 hollow alert button'>Non</a>");
-  var message = $("<p>Voulez-vous garder cette capture?</p>");
+  var $insert = $(this).parent();
+  var $btnOui = $("<a href='#' class='btn-perso2 hollow success button'>Oui</a>");
+  var $btnNon = $("<a href='#' class='btn-perso2 hollow alert button'>Non</a>");
+  var $message = $("<p>Voulez-vous garder cette capture?</p>");
   getCanvas();
   $(this).hide(200, function() {
-    insert.animate({'top':'50px'});
-    $(btnNon).prependTo(insert).hide().slideDown();
-    $(btnOui).prependTo(insert).hide().slideDown();
-    message.prependTo(insert).hide().slideDown();
+    $insert.animate({'top':'50px'});
+    $btnNon.prependTo($insert).hide().slideDown();
+    $btnOui.prependTo($insert).hide().slideDown();
+    $message.prependTo($insert).hide().slideDown();
   }).ready(function()
   {
-    $(btnNon).on("click", function()
+    $($btnNon).on("click", function()
     {
       $(this).slideUp(function(){$(this).remove();});
-      $(btnOui).slideUp(function(){$(this).remove();});
-      $(message).slideUp(function(){$(this).remove();});
-      insert.animate({'top':'40%'});
+      $btnOui.slideUp(function(){$(this).remove();});
+      $message.slideUp(function(){$(this).remove();});
+      $insert.animate({'top':'40%'});
       $('a.capture').slideDown();
       finished = []; //Réinitialise le array à zéro.
       getStream();
     });
-    $(btnOui).on("click", function()
+    $($btnOui).on("click", function()
     {
       $(this).slideUp(function(){$(this).remove();});
-      $(btnNon).slideUp(function(){$(this).remove();});
-      $(message).slideUp(function(){
+      $btnNon.slideUp(function(){$(this).remove();});
+      $message.slideUp(function(){
         $(this).remove();
         changeTitle(1);
         appendBloc();
