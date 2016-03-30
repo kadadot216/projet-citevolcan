@@ -167,7 +167,7 @@ $("#bright, #contrast, #nett, #checkGreyscale, #checkNegate").on('change', funct
 });// fin de onchange()
 
 $(".etSValid").on('click', function () {
-  alert("Test OK");
+  alert("TESTING SOMETHING");
 });
 $(".etSRetour").on('click', function () {
   alert("Je retourne");
