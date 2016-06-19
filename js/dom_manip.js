@@ -1,43 +1,45 @@
-
-$(function() {
+// $(function() {
+// 	}());
+function loadAllDOM(){
 
 	var $btnCapture = $("div.next-to > a.capture"),
-		$divNextTo =  $("div.next-to"),
+	$divNextTo =  $("div.next-to"),
 	$btnOui = $("<a href='#' class='btn-perso2 hollow success button'>Oui</a>"),
 	$btnNon = $("<a href='#' class='btn-perso2 hollow alert button'>Non</a>"),
 	$message = $("<p>Voulez-vous garder cette capture?</p>");
 
-	var superDiv = 
-	superDiv += "<div class='filterField'>";
-	superDiv += "<table>";
-	superDiv += "  <tr>";
-	superDiv += "    <td><input type='range' name='bright' id='bright' min='-100' max='100' value='100' /></td>";
-	superDiv += "    <td><div class='rangeValue'><div id='valueBright'>0</div> Luminosité</div></td>";
-	superDiv += "  </tr>";
-	superDiv += "  <tr>";
-	superDiv += "    <td><input type='range' name='contrast' id='contrast' min='-100' max='100' value='100' /></td>";
-	superDiv += "    <td><div class='rangeValue'><div id='valueContr'>0</div> Contraste</div></td>";
-	superDiv += "  </tr>";
-	superDiv += "  <tr>";
-	superDiv += "    <td><input type='range' name='nett' id='nett' min='-6' max='6' value='6' /></td>";
-	superDiv += "    <td><div class='rangeValue'><div id='valueNett'>0</div> Nettetté</div></td>";
-	superDiv += "  </tr>";
-	superDiv += "  <tr>";
-	superDiv += "  <td><input type='checkbox' name='checkGreyscale' id='checkGreyscale' /></td>";
-	superDiv += "  <td>Balance des blancs</td>";
-	superDiv += "</tr>";
-	superDiv += "<tr>";
-	superDiv += "  <td><input type='checkbox' name='checkNegate' id='checkNegate' /></td>";
-	superDiv += "  <td>Négatif</td>";
-	superDiv += "</tr>";
-	superDiv += "<tr>";
-	superDiv += "  <td colspan='2' style='padding:0;'><button class='success button etSValid' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Valider</button></td>";
-	superDiv += "</tr>";
-	superDiv += "<tr>";
-	superDiv += "  <td colspan='2' style='padding:0;'><button class='alert button etSRetour' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Retour</button></td>";
-	superDiv += "</tr>";
-	superDiv += "</table>";
-	superDiv += "</div>";
+	var superDiv = $("" +
+	 "<div class='filterField'>" +
+	 "<table>" +
+	 "<tr>" +
+	 "<td><input type='range' name='bright' id='bright' min='-100' max='100' value='100' /></td>" +
+	 "<td><div class='rangeValue'><div id='valueBright'>0</div> Luminosité</div></td>" +
+	 "</tr>" +
+	 "<tr>" +
+	 "<td><input type='range' name='contrast' id='contrast' min='-100' max='100' value='100' /></td>" +
+	 "<td><div class='rangeValue'><div id='valueContr'>0</div> Contraste</div></td>" +
+	 "</tr>" +
+	 "<tr>" +
+	 "<td><input type='range' name='nett' id='nett' min='-6' max='6' value='6' /></td>" +
+	 "<td><div class='rangeValue'><div id='valueNett'>0</div> Nettetté</div></td>" +
+	 "</tr>" +
+	 "<tr>" +
+	 "<td><input type='checkbox' name='checkGreyscale' id='checkGreyscale' /></td>" +
+	 "<td>Balance des blancs</td>" +
+	 "</tr>" +
+	 "<tr>" +
+	 "<td><input type='checkbox' name='checkNegate' id='checkNegate' /></td>" +
+	 "<td>Négatif</td>" +
+	 "</tr>" +
+	 "<tr>" +
+	 "<td colspan='2' style='padding:0;'><button class='success button etSValid' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Valider</button></td>" +
+	 "</tr>" +
+	 "<tr>" +
+	 "<td colspan='2' style='padding:0;'><button class='alert button etSRetour' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Retour</button></td>" +
+	 "</tr>" +
+	 "</table>" +
+	 "</div>" +
+	 "");
 
 
 	$btnCapture.on("click", function(){
@@ -48,14 +50,7 @@ $(function() {
 	$($btnNon).on("click", retourEtapeOne);
 	$($btnOui).on("click", goToEtapeTwo);
 
-	$(".etSValid").on('click', function () {
-		alert("Test OK");
-	});
-	$(".etSRetour").on('click', function () {
-		$btnCapture.animate({'right':'120%'});
-		$divNextTo.animate({'top':'50px'}).show();
-		retourEtapeOne();
-	});
+
 
 
 	function yesNoConfirmation(){
@@ -72,6 +67,7 @@ $(function() {
 
 
 	function retourEtapeOne(){
+		superDiv.remove();
 		$("h1").text("1 - Réaliser une capture");
 		$btnNon.slideUp(function(){$(this).hide();});
 		$btnOui.slideUp(function(){$(this).hide();});
@@ -79,7 +75,7 @@ $(function() {
 		$divNextTo.animate({'top':'40%'});
 		$btnCapture.slideDown();
 	      finished = []; //Réinitialise le array à zéro.
-	      getStream();
+	      getStream(); // Reprend le cours du stream
 	  }
 
 
@@ -91,11 +87,20 @@ $(function() {
 	  		$(this).hide();
 	  		$("h1").text("2 - Effectuer des changements");
 	  		$divNextTo.append(superDiv)
-	  		.css({'top':'130%','right':'70%'},400).animate({'top':'5%'},400);
+	  		.css({'top':'130%'},400).animate({'top':'5%'},400)
+	  		;
 	  		Slider();
-	  		ZoomImage();
+	  		// ZoomImage();
+	  		$(".etSValid").on('click', function () {
+	  			alert("Test OK");
+	  		});
+	  		$(".etSRetour").on('click', function () {
+	  			$btnCapture.animate({'right':'120%'});
+	  			// $divNextTo.animate({'top':'50px'}).show();
+	  			retourEtapeOne();
+	  		});
 	  	});
 	  }
 
 
-	}());
+	};
