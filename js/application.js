@@ -7,17 +7,11 @@ var DataURL;
 
 var getStream = function()
 {
-  $('#webcam').html("<img src='fff.jpeg' />");
+  $('#webcam').html("<img src='roche.jpg' />");
 };
 
-/*var getSnap = function()
-{
-  $('#webcam').html("<img src='"+apachePrefix+"/?action=snapshot' />");
-};*/
-
 function getCanvas() {
-
-  var URL = "f33.jpg";
+  var URL = "roche.jpg";
   // ça va servir pour créer un historique avec une BDD
   $.ajax({
         type:'POST',
@@ -51,104 +45,18 @@ img.src = text;
 
 $(document).ready(function() {
 
-    getStream();
-  $("#webcam").animate({'height':'480px',
+getStream();
+
+$("#webcam").animate({'height':'480px',
     'width':'640px',
     'margin':'0 40%'},
     1000);
 
 });
 
-$(".hero").on("click","a.capture", function(event) {
-  event.preventDefault();
-  var $insert = $(this).parent();
-  var $btnOui = $("<a href='#' class='btn-perso2 hollow success button'>Oui</a>");
-  var $btnNon = $("<a href='#' class='btn-perso2 hollow alert button'>Non</a>");
-  var $message = $("<p>Voulez-vous garder cette capture?</p>");
-  getCanvas();
-  $(this).hide(200, function() {
-    $insert.animate({'top':'50px'});
-    $btnNon.prependTo($insert).hide().slideDown();
-    $btnOui.prependTo($insert).hide().slideDown();
-    $message.prependTo($insert).hide().slideDown();
-  }).ready(function()
-  {
-    $($btnNon).on("click", function()
-    {
-      $(this).slideUp(function(){$(this).remove();});
-      $btnOui.slideUp(function(){$(this).remove();});
-      $message.slideUp(function(){$(this).remove();});
-      $insert.animate({'top':'40%'});
-      $('a.capture').slideDown();
-      finished = []; //Réinitialise le array à zéro.
-      getStream();
-    });
-    $($btnOui).on("click", function()
-    {
-      $(this).slideUp(function(){$(this).remove();});
-      $btnNon.slideUp(function(){$(this).remove();});
-      $message.slideUp(function(){
-        $(this).remove();
-        changeTitle(1);
-        appendBloc();
-        Slider();
-        ZoomImage();
-      });
-    });
-
-  });
-});
 
 
-function changeTitle(param)
-{
-  if (param === 1)
-  {
-    $("h1").text("2 - Effectuer des changements");
-  }
-  else if (param === 2)
-    {$("h1").text("3 - Analyse de formes");}
-}
 
-function appendBloc()
-{
-  var superDiv = 
-"<div class='filterField'>" +
-"<label>Price:</label>" +
-"<table>" +
-"  <tr>" +
-"    <td><input type='range' name='bright' id='bright' min='-100' max='100' value='100' /></td>" +
-"    <td><div class='rangeValue'><div id='valueBright'>0</div> Luminosité</div></td>" +
-"  </tr>" +
-"  <tr>" +
-"    <td><input type='range' name='contrast' id='contrast' min='-100' max='100' value='100' /></td>" +
-"    <td><div class='rangeValue'><div id='valueContr'>0</div> Contraste</div></td>" +
-"  </tr>" +
-"  <tr>" +
-"    <td><input type='range' name='nett' id='nett' min='-6' max='6' value='6' /></td>" +
-"    <td><div class='rangeValue'><div id='valueNett'>0</div> Nettetté</div></td>" +
-"  </tr>" +
-"  <tr>" +
-"  <td><input type='checkbox' name='checkGreyscale' id='checkGreyscale' /></td>" +
-"  <td>Balance des blancs</td>" +
-"</tr>" +
-"<tr>" +
-"  <td><input type='checkbox' name='checkNegate' id='checkNegate' /></td>" +
-"  <td>Négatif</td>" +
-"</tr>" +
-"<tr>" +
-"  <td colspan='2' style='padding:0;'><button class='success button etSValid' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Valider</button></td>" +
-"</tr>" +
-"<tr>" +
-"  <td colspan='2' style='padding:0;'><button class='alert button etSRetour' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Retour</button></td>" +
-"</tr>" +
-"</table>" +
-"</div>";
-
-  $(".next-to").append(superDiv);
-  $(".next-to").css({'top':'100%'},400).animate({'top':'5%'},400);
-
-}
 
 function Slider() {
 
@@ -166,12 +74,6 @@ $("#bright, #contrast, #nett, #checkGreyscale, #checkNegate").on('change', funct
 
 });// fin de onchange()
 
-$(".etSValid").on('click', function () {
-  alert("TESTING SOMETHING");
-});
-$(".etSRetour").on('click', function () {
-  alert("Je retourne");
-});
 
 } // fin slider()
 
@@ -224,7 +126,6 @@ function ZoomImage()
 "      <button class='button success' id='target'>Resize Image</button>" +
 "</div>";
 
-  $(divZoomer).appendTo("#ensemble");
 
 $(function(){
    var scaley = $('#scalexy').val();
