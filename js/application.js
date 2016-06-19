@@ -154,13 +154,16 @@ var loadApp = function() {
 $(document).ready(function() {
 
 loadApp();
-
+  
 $('.mainApp').on('click', loadApp);
     
 $('.superVision').on('click', function(){
   $(".hero").load("supervision.html");
 });
 
+$('.ongletDoc').on('click', function(){
+  $(".hero").load("docmain.html");
+});
 
 
 });
