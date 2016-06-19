@@ -140,7 +140,7 @@ function ZoomImage()
 }
 
 var loadApp = function() {
-    $(".hero").load("app.html",function(){
+    $(".hero > .wrap").load("app.html",function(){
       loadAllDOM();
   getStream();
 
@@ -158,11 +158,11 @@ loadApp();
 $('.mainApp').on('click', loadApp);
     
 $('.superVision').on('click', function(){
-  $(".hero").load("supervision.html");
+  $(".hero > .wrap").load("supervision.html");
 });
 
 $('.ongletDoc').on('click', function(){
-  $(".hero").load("docmain.html");
+  $(".hero > .wrap").load("docmain.html");
 });
 
 
