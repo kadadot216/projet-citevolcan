@@ -1,0 +1,3 @@
+# crontab RRDTOOLS
+*/5 * * * * root rrdupdate $(echo $doss_rrd)trafic_eth0.rrd \$(grep eth0 /proc/net/dev | cut -d: -f2 | awk -v ts=\`date +\%s\` '{print ts":"\$1":"\$9}')
+*/5 * * * * root /var/www/html/projet-citevolcan/scripts/graphes.sh >/dev/null

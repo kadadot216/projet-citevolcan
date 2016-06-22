@@ -1,0 +1,52 @@
+ <style type="text/css">
+.big-font {
+  font-size: 2em;
+}
+ </style>
+
+    <div id="supervise">
+      <h1>Graphes générés par RRDTool</h1>
+
+        <table border=0 cellpadding=0 cellspacing=10>
+
+          <tr>
+          <td><p class="big-font">
+            <b>Charge CPU</b>
+          </p><br>  
+          <a href="#"><img src="graphs/cpu.png" border=1 /></a><br>
+          <small><!--#flastmod file="syls-virtualbox_cpu.html" --></small>
+          </td>
+          <td><p class="big-font">
+            <b>RAM</b>
+          </p><br>  
+          <a href="#"><img border=1 alt="" src="graphs/memoire.png"  /></a><br>
+          <small><!--#flastmod file="syls-virtualbox_tcp.html" --></small>
+          </td>
+          </tr>
+          <tr>
+            <td><p class="big-font">
+            <b>Température °C</b>
+          </p><br>  
+          <a href="#"><img border=1 alt="" src="graphs/temperature.png"  /></a><br>
+          <small><!--#flastmod file="syls-virtualbox_tcp.html" --></small></td>
+            <td><p class="big-font">
+            <b>Traffic sur <i>eth0</i></b>
+          </p><br>  
+          <a href="#"><img src="graphs/trafic_eth0.png" border=1 /></a><br>
+          <small><!--#flastmod file="syls-virtualbox_cpu.html" --></small></td>
+          </tr>
+</table>
+    </div>
+  <script type="text/javascript">
+$(document).ready(function () {
+  var normal={width: "640px",height: "480px"};
+  var large={width: "1280px",height: "960px"};
+  var count=1;
+  $('img').css(normal);
+$('img').on('click',function(e){
+  e.preventDefault();
+            $(this).animate((count==1)?large:normal);
+            count = 1-count;
+});
+});
+  </script>
