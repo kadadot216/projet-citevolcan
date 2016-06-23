@@ -1,0 +1,12 @@
+Construction de l'application :
+==================
+
+Modules :
+-------------------
+
+core
+imgproc
+features2d
+objdetect?
+flann
+legacy?

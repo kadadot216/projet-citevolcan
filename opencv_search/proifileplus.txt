@@ -1,0 +1,2 @@
+PATH="/usr/local/lib:usr/local:$PATH"
+export PATH

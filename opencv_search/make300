@@ -1,0 +1,11 @@
+CPP = g++
+
+# OpenCV 3.0.0
+CPPFLAGS = -L/usr/local/lib \
+	-I/usr/local/include/opencv \
+	-I/usr/local/include 
+
+all: test
+
+test: main.cpp
+	$(CPP) $(CPPFLAGS) $^ -o $@
