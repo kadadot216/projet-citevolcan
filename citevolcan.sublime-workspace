@@ -16,7 +16,10 @@
 	"buffers":
 	[
 		{
+			"contents": "<!doctype html>\n<html class=\"no-js\" lang=\"en\">\n<head>\n  <!-- <meta http-equiv=\"refresh\" content=\"3\" > -->\n  <meta charset=\"utf-8\" />\n  <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Foundation | Welcome</title>\n  <link rel=\"stylesheet\" href=\"css/foundation.css\" />\n  <link rel=\"stylesheet\" href=\"css/app.css\" />\n  <link rel=\"stylesheet\" href=\"css/monstyle.css\" />\n  <link rel=\"stylesheet\" href=\"css/jquery.Jcrop.css\" />\n</head>\n<body>\n  <!-- MOBILE NAVIGATION -->\n\n\n  <!-- DESKTOP NAVIGATION -->\n  <nav class=\"top-bar nav-desktop \">\n    <div class=\"wrap \">\n      <div class=\"top-bar-left \">\n        <h3 class=\"site-logo class-button-logo\">CITEVOLCAN</h3>\n        </div>\n        <div class=\"top-bar-right\">\n          <ul class=\"menu menu-desktop\">\n            <li><a href=\"#\" class=\"mainApp\">Application</a></li>\n            <li><a href=\"#\" class=\"superVision\">Supervision</a></li>\n            <li><a href=\"#\" class=\"ongletDoc\">Doc</a></li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  <!-- HERO SECTION -->\n  <section class=\"hero\">\n    <div class=\"wrap\">\n\n    </div>\n  </section>\n  <!-- MAIN SECTION -->\n  <section class=\"main\">\n\n  </section>\n\n  <!-- FOOTER -->\n  <footer>\n    <div class=\"wrap row small-up-1 medium-up-3\">\n      <div class=\"column\">\n        <h4>Contact Info</h4>\n        <hr>\n        <a href=\"#\"><span>Téléphone</span> 0262 59 00 26</a>\n        <a href=\"#\"><span>Site</span> http://www.museesreunion.re/laciteduvolcan</a>\n        <a href=\"#\"><span>Adresse</span> RN3 Bourg Murat\n          La Plaine Des Cafres, Reunion</a>\n        </div>\n        <div class=\"column\">\n          <h4>Carte du Site</h4>\n          <hr>\n          <a href=\"#\">A propos</a>\n          <a href=\"#\">Services</a>\n          <a href=\"#\">Nous contacter</a>\n        </div>\n        <div class=\"column\">\n          <h4>Médias Sociaux</h4>\n          <hr>\n          <a href=\"#\">Facebook</a>\n          <a href=\"#\">Twitter</a>\n          <a href=\"#\">Snapchat</a>\n        </div>\n\n      </div>\n    </footer>\n\n    <script src=\"js/vendor/jquery.min.js\"></script>\n    <script src=\"js/vendor/what-input.min.js\"></script>\n    <script src=\"js/foundation.min.js\"></script>\n    <script src=\"js/vendor/jquery.Jcrop.js\"></script>\n    <script src=\"js/dom_manip.js\"></script>\n    <script src=\"js/application.js\"></script>\n    <script src=\"js/app.js\"></script>\n  </body>\n  </html>\n\n",
 			"file": "index.html",
+			"file_size": 2450,
+			"file_write_time": 131110621732641061,
 			"settings":
 			{
 				"buffer_size": 2447,
@@ -24,7 +27,10 @@
 			}
 		},
 		{
+			"contents": "\n      <h1>1 - Réaliser une capture</h1>\n      <div id=\"ensemble\">\n        <div id=\"webcam\"></div>\n        <div class=\"next-to\"> \n          <a href=\"#\" class=\"button capture btn-perso1 couleur-perso1\" >Faire une capture</a>\n        </div>\n      </div>\n      \n\n",
 			"file": "app.html",
+			"file_size": 261,
+			"file_write_time": 131110621731281061,
 			"settings":
 			{
 				"buffer_size": 260,
@@ -32,7 +38,10 @@
 			}
 		},
 		{
+			"contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatum tenetur maxime voluptas explicabo pariatur cupiditate ipsa quo odit incidunt ullam, recusandae dolorum ea. Dolor commodi enim, ab sed tempora quibusdam, quas earum distinctio incidunt dolore porro facere quidem magnam reiciendis possimus officiis perferendis rerum quam officia magni tempore! Dolor omnis nostrum, ullam accusamus ratione provident iste labore ea dolorem vero reprehenderit earum vitae error cumque veritatis cupiditate. Porro ullam, reprehenderit laborum nihil eaque voluptate. Quas blanditiis voluptatibus soluta adipisci ipsa minima vitae possimus laboriosam alias temporibus, sunt dolorem cum. Provident atque, hic quibusdam maxime ipsam ex beatae ipsum aut sequi, nisi quod numquam in esse corrupti nemo sapiente odio vero quo facilis sint doloremque nobis minima nihil. Veritatis dicta tempore quod nesciunt? Praesentium iste debitis, animi sed ducimus sunt facere nesciunt omnis id voluptate quam ipsa illum earum officiis repellat consectetur. Autem, minima minus voluptatibus fugit? Commodi pariatur dolore aspernatur corrupti architecto perspiciatis. Laudantium veniam dicta ab quia quod voluptate nihil velit exercitationem odio ipsa sint rerum fuga aperiam deserunt nesciunt harum, facilis porro iusto laborum minus veritatis, tempora explicabo quaerat labore. Iste totam ipsum, recusandae amet adipisci porro error expedita consequatur magni soluta magnam illo minima veniam incidunt nam, vitae libero labore. Dolor officia officiis, commodi eligendi impedit enim facere deleniti veritatis, quidem perferendis id, vitae reprehenderit dignissimos. Temporibus eum numquam quidem obcaecati laudantium corporis at omnis amet architecto vero voluptate, labore enim quia ullam iusto earum, ducimus repudiandae necessitatibus. Similique voluptatibus, excepturi temporibus perspiciatis quibusdam animi maxime atque dolorum quos, at possimus dolores ullam corporis voluptatem, tenetur itaque. A explicabo ratione eum facere. Quos voluptatibus eius temporibus hic laborum suscipit, at id quae odio pariatur. At obcaecati odio, aliquid dolorum quia nihil commodi illum magni magnam ipsa error iste. Quaerat fuga magnam, consectetur tempora facilis obcaecati esse necessitatibus. Perferendis, inventore. Facilis, enim debitis perferendis exercitationem nihil consequuntur voluptas nesciunt ipsa itaque quos sequi neque doloribus voluptatum iste ipsum, quam dignissimos amet optio tenetur voluptatibus ut cupiditate culpa. Itaque ipsum tempora quaerat eius sapiente iure perferendis deserunt esse corporis praesentium, blanditiis alias explicabo, quidem temporibus qui rerum aspernatur consequuntur, nobis modi dolorum animi aperiam tempore commodi quis fugit. Tempore libero quisquam laborum eaque neque eius enim porro asperiores suscipit omnis mollitia, repellat rerum culpa ea nemo, aspernatur ipsum unde, totam iste sed maxime assumenda blanditiis architecto quasi aut. Facere nisi earum dolore doloribus eligendi, necessitatibus qui est quis iusto corporis omnis dolorem similique nihil nam suscipit aperiam quisquam maiores maxime odio aut, vel totam dicta error commodi eos! A necessitatibus, libero voluptate dolores neque quo fugit eaque excepturi temporibus optio, molestiae labore ducimus nisi eos fuga, laboriosam soluta officiis ex quas autem tenetur vel ipsam, minima qui. Excepturi.</p>",
 			"file": "supervision.html",
+			"file_size": 3397,
+			"file_write_time": 131110621733241061,
 			"settings":
 			{
 				"buffer_size": 3397,
@@ -40,7 +49,10 @@
 			}
 		},
 		{
+			"contents": "var imageNr = 0; // Serial number of current image\nvar finished = []; // References to img objects which have finished downloading\nvar paused = false;\nvar histo = 0;\nvar apachePrefix = window.location.protocol + \"//\" + window.location.hostname + \":8080\";\nvar DataURL;\n\nvar getStream = function()\n{\n  $('#webcam').html(\"<img src='roche.jpg' />\");\n};\n\nvar getCanvas = function() {\n  var URL = \"roche.jpg\";\n  // ça va servir pour créer un historique avec une BDD\n  $.ajax({\n    type: 'POST',\n    url:'img.php',\n    data:{dataURL:URL},\n    success: function(data){\n      drawCanvas(data);\n      DataURL = data.replace(\"data:image/jpeg;base64,\",\"\");\n    },\n    error: function(err) {\n      console.table(err);\n\n    }\n\n\n\n  });\n};\n\nfunction drawCanvas(text)\n{\n  $('#webcam').html(\"<canvas id='MyCanvas' height='480' width='640'></canvas>\");\n  var myCanvas = document.getElementById('MyCanvas');\n  var ctx = myCanvas.getContext('2d');\n  var img = new Image();\n  img.onload = function(){\n    ctx.drawImage(img,0,0); // Or at whatever offset you like\n  };\n  img.src = text;\n}\n\nfunction Slider() {\n\n  $(':checkbox:checked').prop('checked',false);\n  \n  var brightVal = $('#bright').val(0),\n  contrVal = $('#contrast').val(0),\n  nettVal = $('#nett').val(0),\n  greyscale=0, negate=0;\nActualiser();\n\n  $(\"#bright, #contrast, #nett, #checkGreyscale, #checkNegate\").on('change', function () {\n\nActualiser();\n\n});// fin de onchange()\n\n\n} // fin slider()\n\nfunction Actualiser()\n{\n\n brightVal = $('#bright').val();\n contrVal = $('#contrast').val();\n nettVal = $('#nett').val();\n\n if( $( \"#checkGreyscale\" ).is(':checked')) {greyscale = 1; } \n else {greyscale = 0; }\n\n if( $( \"#checkNegate\" ).is(':checked')) {negate = 1; } \n else {negate = 0; }\n\n\n $(\"#valueBright\").html(brightVal);\n $(\"#valueContr\").html(contrVal);\n $(\"#valueNett\").html(nettVal);\n\n\n $.ajax({\n  type:\"POST\",\n  url: \"data.php\",\n  data: {dataString: DataURL,\n    brightness: brightVal,\n    contrast: contrVal,\n    nett: nettVal,\n    greyscale: greyscale,\n    negate: negate                  \n  },\n  success: function(data){\n    console.log(data);\n    drawCanvas(data);\n  },\n  error: function(err){\n    console.log(err);\n  }\n\n});\n\n}\n\nfunction ZoomImage()\n{\n  var divZoomer = \"<div class='zoom'>\" +\n  \"        Scale X : \" +\n  \"      <input type='range' id='scalexy' value='0' min='0' max='100' /><span id='scalexyVal'></span>\" +\n  \"      <button class='button success' id='target'>Resize Image</button>\" +\n  \"</div>\";\n\n\n  $(function(){\n   var scaley = $('#scalexy').val();\n   var scalex = $('#scalexy').val();\n   var myJcrop = $.Jcrop('#MyCanvas', {\n     aspectRatio: 1,\n     onSelect: updateCoords,\n     boxWidth: scalex, \n     boxHeight: scaley\n   });\n\n   $('#target').click(function() {\n    myJcrop.destroy();\n    scalex = $('#scalexy').val();\n    scaley = $('#scalexy').val();\n    myJcrop = $.Jcrop('#MyCanvas', {\n      aspectRatio: 1,\n      onSelect: updateCoords,\n      boxWidth: scalex, \n      boxHeight: scaley\n    });\n    console.log(scaley + scalex);\n    $(\"#scalexyVal\").html(scaley);\n  });\n\n });\n}\n\nvar loadApp = function() {\n    $(\".hero > .wrap\").load(\"app.html\",function(){\n      loadAllDOM();\n  getStream();\n\n  $(\"#webcam\").animate({'height':'480px',\n    'width':'640px',\n    'margin':'0 40%'},\n    1000);\n    }); \n};\n\n$(document).ready(function() {\n\nloadApp();\n  \n$('.mainApp').on('click', loadApp);\n    \n$('.superVision').on('click', function(){\n  $(\".hero > .wrap\").load(\"supervision.html\");\n});\n\n$('.ongletDoc').on('click', function(){\n  $(\".hero > .wrap\").load(\"docmain.html\");\n});\n\n\n});",
 			"file": "js/application.js",
+			"file_size": 3554,
+			"file_write_time": 131110621732721061,
 			"settings":
 			{
 				"buffer_size": 3552,
@@ -48,7 +60,10 @@
 			}
 		},
 		{
+			"contents": "<style>@font-face {\n  font-family: octicons-anchor;\n  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');\n}\n\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    width: 980px;\n    margin-right: auto;\n    margin-left: auto;\n}\n\nbody .markdown-body {\n    padding: 45px;\n    border: 1px solid #ddd;\n    border-radius: 3px;\n    word-wrap: break-word;\n}\n\npre {\n    font: 12px Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n}\n\n.markdown-body {\n  -webkit-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n  color: #333;\n  font-family: \"Helvetica Neue\", Helvetica, \"Segoe UI\", Arial, freesans, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n  font-size: 16px;\n  line-height: 1.6;\n  word-wrap: break-word;\n}\n\n.markdown-body a {\n  background-color: transparent;\n}\n\n.markdown-body a:active,\n.markdown-body a:hover {\n  outline: 0;\n}\n\n.markdown-body strong {\n  font-weight: bold;\n}\n\n.markdown-body h1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n.markdown-body img {\n  border: 0;\n}\n\n.markdown-body hr {\n  box-sizing: content-box;\n  height: 0;\n}\n\n.markdown-body pre {\n  overflow: auto;\n}\n\n.markdown-body code,\n.markdown-body kbd,\n.markdown-body pre {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\n\n.markdown-body input {\n  color: inherit;\n  font: inherit;\n  margin: 0;\n}\n\n.markdown-body html input[disabled] {\n  cursor: default;\n}\n\n.markdown-body input {\n  line-height: normal;\n}\n\n.markdown-body input[type=\"checkbox\"] {\n  box-sizing: border-box;\n  padding: 0;\n}\n\n.markdown-body table {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n.markdown-body td,\n.markdown-body th {\n  padding: 0;\n}\n\n.markdown-body input {\n  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n}\n\n.markdown-body a {\n  color: #4078c0;\n  text-decoration: none;\n}\n\n.markdown-body a:hover,\n.markdown-body a:active {\n  text-decoration: underline;\n}\n\n.markdown-body hr {\n  height: 0;\n  margin: 15px 0;\n  overflow: hidden;\n  background: transparent;\n  border: 0;\n  border-bottom: 1px solid #ddd;\n}\n\n.markdown-body hr:before {\n  display: table;\n  content: \"\";\n}\n\n.markdown-body hr:after {\n  display: table;\n  clear: both;\n  content: \"\";\n}\n\n.markdown-body h1,\n.markdown-body h2,\n.markdown-body h3,\n.markdown-body h4,\n.markdown-body h5,\n.markdown-body h6 {\n  margin-top: 15px;\n  margin-bottom: 15px;\n  line-height: 1.1;\n}\n\n.markdown-body h1 {\n  font-size: 30px;\n}\n\n.markdown-body h2 {\n  font-size: 21px;\n}\n\n.markdown-body h3 {\n  font-size: 16px;\n}\n\n.markdown-body h4 {\n  font-size: 14px;\n}\n\n.markdown-body h5 {\n  font-size: 12px;\n}\n\n.markdown-body h6 {\n  font-size: 11px;\n}\n\n.markdown-body blockquote {\n  margin: 0;\n}\n\n.markdown-body ul,\n.markdown-body ol {\n  padding: 0;\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n.markdown-body ol ol,\n.markdown-body ul ol {\n  list-style-type: lower-roman;\n}\n\n.markdown-body ul ul ol,\n.markdown-body ul ol ol,\n.markdown-body ol ul ol,\n.markdown-body ol ol ol {\n  list-style-type: lower-alpha;\n}\n\n.markdown-body dd {\n  margin-left: 0;\n}\n\n.markdown-body code {\n  font-family: Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n  font-size: 12px;\n}\n\n.markdown-body pre {\n  margin-top: 0;\n  margin-bottom: 0;\n  font: 12px Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n}\n\n.markdown-body .select::-ms-expand {\n  opacity: 0;\n}\n\n.markdown-body .octicon {\n  font: normal normal normal 16px/1 octicons-anchor;\n  display: inline-block;\n  text-decoration: none;\n  text-rendering: auto;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n.markdown-body .octicon-link:before {\n  content: '\\f05c';\n}\n\n.markdown-body:before {\n  display: table;\n  content: \"\";\n}\n\n.markdown-body:after {\n  display: table;\n  clear: both;\n  content: \"\";\n}\n\n.markdown-body>*:first-child {\n  margin-top: 0 !important;\n}\n\n.markdown-body>*:last-child {\n  margin-bottom: 0 !important;\n}\n\n.markdown-body a:not([href]) {\n  color: inherit;\n  text-decoration: none;\n}\n\n.markdown-body .anchor {\n  display: inline-block;\n  padding-right: 2px;\n  margin-left: -18px;\n}\n\n.markdown-body .anchor:focus {\n  outline: none;\n}\n\n.markdown-body h1,\n.markdown-body h2,\n.markdown-body h3,\n.markdown-body h4,\n.markdown-body h5,\n.markdown-body h6 {\n  margin-top: 1em;\n  margin-bottom: 16px;\n  font-weight: bold;\n  line-height: 1.4;\n}\n\n.markdown-body h1 .octicon-link,\n.markdown-body h2 .octicon-link,\n.markdown-body h3 .octicon-link,\n.markdown-body h4 .octicon-link,\n.markdown-body h5 .octicon-link,\n.markdown-body h6 .octicon-link {\n  color: #000;\n  vertical-align: middle;\n  visibility: hidden;\n}\n\n.markdown-body h1:hover .anchor,\n.markdown-body h2:hover .anchor,\n.markdown-body h3:hover .anchor,\n.markdown-body h4:hover .anchor,\n.markdown-body h5:hover .anchor,\n.markdown-body h6:hover .anchor {\n  text-decoration: none;\n}\n\n.markdown-body h1:hover .anchor .octicon-link,\n.markdown-body h2:hover .anchor .octicon-link,\n.markdown-body h3:hover .anchor .octicon-link,\n.markdown-body h4:hover .anchor .octicon-link,\n.markdown-body h5:hover .anchor .octicon-link,\n.markdown-body h6:hover .anchor .octicon-link {\n  visibility: visible;\n}\n\n.markdown-body h1 {\n  padding-bottom: 0.3em;\n  font-size: 2.25em;\n  line-height: 1.2;\n  border-bottom: 1px solid #eee;\n}\n\n.markdown-body h1 .anchor {\n  line-height: 1;\n}\n\n.markdown-body h2 {\n  padding-bottom: 0.3em;\n  font-size: 1.75em;\n  line-height: 1.225;\n  border-bottom: 1px solid #eee;\n}\n\n.markdown-body h2 .anchor {\n  line-height: 1;\n}\n\n.markdown-body h3 {\n  font-size: 1.5em;\n  line-height: 1.43;\n}\n\n.markdown-body h3 .anchor {\n  line-height: 1.2;\n}\n\n.markdown-body h4 {\n  font-size: 1.25em;\n}\n\n.markdown-body h4 .anchor {\n  line-height: 1.2;\n}\n\n.markdown-body h5 {\n  font-size: 1em;\n}\n\n.markdown-body h5 .anchor {\n  line-height: 1.1;\n}\n\n.markdown-body h6 {\n  font-size: 1em;\n  color: #777;\n}\n\n.markdown-body h6 .anchor {\n  line-height: 1.1;\n}\n\n.markdown-body p,\n.markdown-body blockquote,\n.markdown-body ul,\n.markdown-body ol,\n.markdown-body dl,\n.markdown-body table,\n.markdown-body pre {\n  margin-top: 0;\n  margin-bottom: 16px;\n}\n\n.markdown-body hr {\n  height: 4px;\n  padding: 0;\n  margin: 16px 0;\n  background-color: #e7e7e7;\n  border: 0 none;\n}\n\n.markdown-body ul,\n.markdown-body ol {\n  padding-left: 2em;\n}\n\n.markdown-body ul ul,\n.markdown-body ul ol,\n.markdown-body ol ol,\n.markdown-body ol ul {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n.markdown-body li>p {\n  margin-top: 16px;\n}\n\n.markdown-body dl {\n  padding: 0;\n}\n\n.markdown-body dl dt {\n  padding: 0;\n  margin-top: 16px;\n  font-size: 1em;\n  font-style: italic;\n  font-weight: bold;\n}\n\n.markdown-body dl dd {\n  padding: 0 16px;\n  margin-bottom: 16px;\n}\n\n.markdown-body blockquote {\n  padding: 0 15px;\n  color: #777;\n  border-left: 4px solid #ddd;\n}\n\n.markdown-body blockquote>:first-child {\n  margin-top: 0;\n}\n\n.markdown-body blockquote>:last-child {\n  margin-bottom: 0;\n}\n\n.markdown-body table {\n  display: block;\n  width: 100%;\n  overflow: auto;\n  word-break: normal;\n  word-break: keep-all;\n}\n\n.markdown-body table th {\n  font-weight: bold;\n}\n\n.markdown-body table th,\n.markdown-body table td {\n  padding: 6px 13px;\n  border: 1px solid #ddd;\n}\n\n.markdown-body table tr {\n  background-color: #fff;\n  border-top: 1px solid #ccc;\n}\n\n.markdown-body table tr:nth-child(2n) {\n  background-color: #f8f8f8;\n}\n\n.markdown-body img {\n  max-width: 100%;\n  box-sizing: content-box;\n  background-color: #fff;\n}\n\n.markdown-body code {\n  padding: 0;\n  padding-top: 0.2em;\n  padding-bottom: 0.2em;\n  margin: 0;\n  font-size: 85%;\n  background-color: rgba(0,0,0,0.04);\n  border-radius: 3px;\n}\n\n.markdown-body code:before,\n.markdown-body code:after {\n  letter-spacing: -0.2em;\n  content: \"\\00a0\";\n}\n\n.markdown-body pre>code {\n  padding: 0;\n  margin: 0;\n  font-size: 100%;\n  word-break: normal;\n  white-space: pre;\n  background: transparent;\n  border: 0;\n}\n\n.markdown-body .highlight {\n  margin-bottom: 16px;\n}\n\n.markdown-body .highlight pre,\n.markdown-body pre {\n  padding: 16px;\n  overflow: auto;\n  font-size: 85%;\n  line-height: 1.45;\n  background-color: #f7f7f7;\n  border-radius: 3px;\n}\n\n.markdown-body .highlight pre {\n  margin-bottom: 0;\n  word-break: normal;\n}\n\n.markdown-body pre {\n  word-wrap: normal;\n}\n\n.markdown-body pre code {\n  display: inline;\n  max-width: initial;\n  padding: 0;\n  margin: 0;\n  overflow: initial;\n  line-height: inherit;\n  word-wrap: normal;\n  background-color: transparent;\n  border: 0;\n}\n\n.markdown-body pre code:before,\n.markdown-body pre code:after {\n  content: normal;\n}\n\n.markdown-body kbd {\n  display: inline-block;\n  padding: 3px 5px;\n  font-size: 11px;\n  line-height: 10px;\n  color: #555;\n  vertical-align: middle;\n  background-color: #fcfcfc;\n  border: solid 1px #ccc;\n  border-bottom-color: #bbb;\n  border-radius: 3px;\n  box-shadow: inset 0 -1px 0 #bbb;\n}\n\n.markdown-body .pl-c {\n  color: #969896;\n}\n\n.markdown-body .pl-c1,\n.markdown-body .pl-s .pl-v {\n  color: #0086b3;\n}\n\n.markdown-body .pl-e,\n.markdown-body .pl-en {\n  color: #795da3;\n}\n\n.markdown-body .pl-s .pl-s1,\n.markdown-body .pl-smi {\n  color: #333;\n}\n\n.markdown-body .pl-ent {\n  color: #63a35c;\n}\n\n.markdown-body .pl-k {\n  color: #a71d5d;\n}\n\n.markdown-body .pl-pds,\n.markdown-body .pl-s,\n.markdown-body .pl-s .pl-pse .pl-s1,\n.markdown-body .pl-sr,\n.markdown-body .pl-sr .pl-cce,\n.markdown-body .pl-sr .pl-sra,\n.markdown-body .pl-sr .pl-sre {\n  color: #183691;\n}\n\n.markdown-body .pl-v {\n  color: #ed6a43;\n}\n\n.markdown-body .pl-id {\n  color: #b52a1d;\n}\n\n.markdown-body .pl-ii {\n  background-color: #b52a1d;\n  color: #f8f8f8;\n}\n\n.markdown-body .pl-sr .pl-cce {\n  color: #63a35c;\n  font-weight: bold;\n}\n\n.markdown-body .pl-ml {\n  color: #693a17;\n}\n\n.markdown-body .pl-mh,\n.markdown-body .pl-mh .pl-en,\n.markdown-body .pl-ms {\n  color: #1d3e81;\n  font-weight: bold;\n}\n\n.markdown-body .pl-mq {\n  color: #008080;\n}\n\n.markdown-body .pl-mi {\n  color: #333;\n  font-style: italic;\n}\n\n.markdown-body .pl-mb {\n  color: #333;\n  font-weight: bold;\n}\n\n.markdown-body .pl-md {\n  background-color: #ffecec;\n  color: #bd2c00;\n}\n\n.markdown-body .pl-mi1 {\n  background-color: #eaffea;\n  color: #55a532;\n}\n\n.markdown-body .pl-mdr {\n  color: #795da3;\n  font-weight: bold;\n}\n\n.markdown-body .pl-mo {\n  color: #1d3e81;\n}\n\n.markdown-body kbd {\n  display: inline-block;\n  padding: 3px 5px;\n  font: 11px Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n  line-height: 10px;\n  color: #555;\n  vertical-align: middle;\n  background-color: #fcfcfc;\n  border: solid 1px #ccc;\n  border-bottom-color: #bbb;\n  border-radius: 3px;\n  box-shadow: inset 0 -1px 0 #bbb;\n}\n\n.markdown-body .plan-price-unit {\n  color: #767676;\n  font-weight: normal;\n}\n\n.markdown-body .task-list-item {\n  list-style-type: none;\n}\n\n.markdown-body .task-list-item+.task-list-item {\n  margin-top: 3px;\n}\n\n.markdown-body .task-list-item input {\n  margin: 0 0.35em 0.25em -1.6em;\n  vertical-align: middle;\n}\n\n.markdown-body .plan-choice {\n  padding: 15px;\n  padding-left: 40px;\n  display: block;\n  border: 1px solid #e0e0e0;\n  position: relative;\n  font-weight: normal;\n  background-color: #fafafa;\n}\n\n.markdown-body .plan-choice.open {\n  background-color: #fff;\n}\n\n.markdown-body .plan-choice.open .plan-choice-seat-breakdown {\n  display: block;\n}\n\n.markdown-body .plan-choice-free {\n  border-radius: 3px 3px 0 0;\n}\n\n.markdown-body .plan-choice-paid {\n  border-radius: 0 0 3px 3px;\n  border-top: 0;\n  margin-bottom: 20px;\n}\n\n.markdown-body .plan-choice-radio {\n  position: absolute;\n  left: 15px;\n  top: 18px;\n}\n\n.markdown-body .plan-choice-exp {\n  color: #999;\n  font-size: 12px;\n  margin-top: 5px;\n}\n\n.markdown-body .plan-choice-seat-breakdown {\n  margin-top: 10px;\n  display: none;\n}\n\n.markdown-body :checked+.radio-label {\n  z-index: 1;\n  position: relative;\n  border-color: #4078c0;\n}\n</style>\n<article class=\"markdown-body\"><h1>\n<a id=\"user-content-pétrologie-à-la-réunion\" class=\"anchor\" href=\"#p%C3%A9trologie-%C3%A0-la-r%C3%A9union\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Pétrologie à la Réunion</h1>\n\n\n\n<ul>\n<li><a href=\"#g%C3%A9n%C3%A9ralit%C3%A9s-p%C3%A9trologiques-\">Généralités pétrologiques :</a></li>\n<li>\n<a href=\"#les-roches-de-la-r%C3%A9union\">Les roches de la Réunion</a>\n\n<ul>\n<li><a href=\"#les-trois-grandes-s%C3%A9ries-de-roches\">Les trois grandes séries de roches</a></li>\n<li><a href=\"#types-de-laves\">Types de laves</a></li>\n<li><a href=\"#types-de-sables\">Types de sables</a></li>\n<li><a href=\"#autres\">Autres</a></li>\n</ul>\n</li>\n<li>\n<a href=\"#crit%C3%A8res-de-reconnaissance-min%C3%A9ralogique\">Critères de reconnaissance minéralogique</a>\n\n<ul>\n<li><a href=\"#lumi%C3%A8re-naturelle\">Lumière naturelle</a></li>\n<li><a href=\"#lumi%C3%A8re-polaris%C3%A9e-et-analys%C3%A9e\">Lumière Polarisée et Analysée</a></li>\n</ul>\n</li>\n<li>\n<a href=\"#reconna%C3%AEtre-les-min%C3%A9raux-au-microscope\">Reconnaître les minéraux au microscope</a>\n\n<ul>\n<li><a href=\"#olivine\">Olivine</a></li>\n<li><a href=\"#feldspaths\">Feldspaths</a></li>\n<li><a href=\"#biotite\">Biotite</a></li>\n<li><a href=\"#pyrox%C3%A8ne\">Pyroxène</a></li>\n<li><a href=\"#amphibioles\">Amphibioles</a></li>\n</ul>\n</li>\n</ul>\n\n\n\n<h2>\n<a id=\"user-content-généralités-pétrologiques--\" class=\"anchor\" href=\"#g%C3%A9n%C3%A9ralit%C3%A9s-p%C3%A9trologiques--\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Généralités pétrologiques : </h2>\n\n<p>De la zone de fusion jusqu'au réservoir magmatique, le magma remonte par densité. A l'échelle géologique, ce transfert est relativement rapide même s'il permet une interaction entre le magma et les roches encaissantes. En effet, le magma peut se mélanger à ces roches mais aussi à des magmas plus anciens, altérant alors la chimie originelle du <strong>magma primitif</strong>. C'est le phénomène de la contamination. </p>\n\n<p>D'autre part, le magma refroidit au contact de ces roches plus \"froides\", entraînant aussi un début de cristallisation ce qui change aussi la chimie du magma (voir plus loin). Un des grands objectifs de la magmatologie est de connaître les différents liquides primitifs - ceux issus directement de la fusion partielle - associés aux différents contextes géodynamiques. Mais faute de témoins, ces liquides ne sont qu'approchés. On parle alors de <strong>liquides primaires</strong> pour les magmas les plus primitifs connus et notamment celui qui arrive dans le réservoir magmatique. Il s'y stocke car ses densité est équivalente aux roches alentours.</p>\n\n<p>Dans ce réservoir, le magma refroidit et donc <em>cristallise des minéraux qui dépendent directement des éléments chimiques présents dans le liquide à ce moment</em>.Les premiers à se former se construisent avec les éléments chimiques qui sont plus \"à l’aise (breizh)\" dans les solides que dans les liquides. On les appelle les éléments <strong>compatibles</strong>, à différencier des éléments <strong>incompatibles</strong> qui préfèrent le liquide (ils sont <strong>incompatibles</strong> avec le solide). Les éléments majeurs les plus compatibles sont le fer et le magnésium qui s'assemblent selon une certaine structure cristalline pour former l'<strong>olivine</strong>. Leurs taux respectifs dans le liquide vont alors diminuer. Le calcium est lui aussi compatibles, ce qui permet simultanément la cristallisation de pyroxène. Ainsi, au fur et à mesure du temps, la composition chimique du liquide évolue : c'est le phénomène de la <strong>cristallisation fractionnée</strong> qui fractionne les éléments chimiques entre liquide et solide.</p>\n\n<p>Conjointement à cette cristallisation, un second phénomène se passe dans le magma : <strong>l'exsolution</strong>. A forte profondeur, les gaz sont contenus dans le magma. Ils sont donc dissous, c'est à dire qu'ils ne sont pas à l'état gazeux. Mais aux profondeurs plus superficielles des réservoirs magmatiques, le gaz peut s'exsolver, c'est à dire qu'il peut passer de l'état dissous à celui de gazeux. C'est la vaporisation au sens physique. Le gaz va alors former de petites bulles qui vont croître, coalescer et s'accumuler jusqu'à former une mousse magmatique qui va permettre à un moment l'ascension du magma. En lien direct avec la viscosité notamment, ces gaz sont le moteur de l'éruption. La cristallisation n'est donc pas continue du fait qu'elle soit entrecoupée d'une multitude d'éruptions. Un réservoir magmatique peut donc se \"débarrasser\" de ses olivines par l’intermédiaire d'une éruption. Il faut préciser que les phénomènes décrits ici en quelques lignes se déroulent bien à une échelle géologique.</p>\n\n<p>Tant qu'un réservoir magmatique et réalimenté en permanence par du magma frais (ou primaire), la composition chimique est systématiquement plus ou moins remise à zéro. Cela explique pourquoi entre 7 Ma et 450 000 ans l'activité éruptive du Piton des Neiges fut essentiellement dominée par des basaltes contenant plus ou moins d'olivines et de pyroxènes. Il faut aussi préciser que dans le réservoir magmatique, du fait d'une densité plus importante que le liquide, ces cristaux ont tendance à sédimenter en fond de réservoir. Une éruption peut donc mettre en jeu une <strong>lave sans cristaux</strong> mais dont la chimie présente un début de différenciation magmatique.</p>\n\n<h2>\n<a id=\"user-content-les-roches-de-la-réunion\" class=\"anchor\" href=\"#les-roches-de-la-r%C3%A9union\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Les roches de la Réunion</h2>\n\n<h3>\n<a id=\"user-content-les-trois-grandes-séries-de-roches\" class=\"anchor\" href=\"#les-trois-grandes-s%C3%A9ries-de-roches\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Les trois grandes séries de roches</h3>\n\n<p>Il existe trois grandes séries magmatiques en relation direct avec les contextes géodynamiques et plus précisément avec le taux de fusion : </p>\n\n<ul>\n<li><p><strong>La série tholétique</strong> (contexte de dorsale océanique) : basalte, basalte andésitique, andésite, dacite, rhyolite. Taux de fusion important (10-20%)</p></li>\n<li><p><strong>La série calco-alcaline</strong> (contexte de subduction) : basalte, hawaïte, mugéarite, benmoréite, trachyte. Taux de  fusion moyen (5-10%)</p></li>\n<li><p><strong>La série alcaline</strong> (volcanisme en domaine continental) : basalte alcalin, basanite, téphrite, téphrite phonolitique, phono-téphrite, phonolite. Faible taux de  fusion (1-5%)</p></li>\n</ul>\n\n<p>Le contexte de point chaude n'a pas donc de série magmatique bien définie. Cela dépend de chaque volcan mais aussi et surtout du taux de fusion associé au point chaud. Pour celui de la Réunion par exemple, du fait d'un taux de fusion extraordinaire, les basaltes des trapps du Deccan sont de la série tholétique alors que la série actuelle à la Réunion est clairement calco-alcaline. Il est probable qu'en fin de vie du point chaud, le taux de fusion diminuera : il se peut que la série devienne alcaline.</p>\n\n\n\n<p><a href=\"doc/src/02_01.jpg\" target=\"_blank\"><img src=\"doc/src/02_01.jpg\" alt=\"Classement des séries de roches\" style=\"max-width:100%;\"></a></p>\n\n<p>La reconnaissance des roches sur le terrain se fait à l'aide de deux critères principaux. Le premier est la couleur de la pâte volcanique. Plus elle est claisre et plus l'évolution est marquée et plus on s'éloigne du champ du basalte; et inversement. Le second critère est la reconnaissance des minéraux porphyriques, ceux qu'on voit à l'oeil nu (voir schéma).</p>\n\n<h3>\n<a id=\"user-content-types-de-laves\" class=\"anchor\" href=\"#types-de-laves\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Types de laves</h3>\n\n<h4>\n<a id=\"user-content-basaltes-\" class=\"anchor\" href=\"#basaltes-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Basaltes :</h4>\n\n<p>Roche mélanocrate à phénocristaux possible d'olivines. Si absence : basalte aphyrique / si olivines peut présentes : basalte à olivine / si olivines nombreuses : océanite.</p>\n\n<ul>\n<li><p>gabbro mélanocrate : pyroxène et olivine dominants mêlés à quelques feldspaths plagioclase.</p></li>\n<li><p>ultrabasite : minéraux ferromagnésiens (pyroxène et olivine) largement dominants. </p></li>\n</ul>\n\n<h4>\n<a id=\"user-content-syénites-\" class=\"anchor\" href=\"#sy%C3%A9nites-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Syénites :</h4>\n\n<p>Roche leucocrate mêlant feldspaths alcalins ,plagioclases, amphibioles et pyroxènes. Les fractures acceuillent fréquemment de beaux cristaux de quartz.</p>\n\n<h3>\n<a id=\"user-content-types-de-sables\" class=\"anchor\" href=\"#types-de-sables\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Types de sables</h3>\n\n<h4>\n<a id=\"user-content-sable-blanc-\" class=\"anchor\" href=\"#sable-blanc-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Sable blanc :</h4>\n\n<p>Coraux, épines d'oursins, frangments coquilliers, débris de basalte, olivines, pyroxènes, rares morceaux de \"roches\" d'origine organique.</p>\n\n<h4>\n<a id=\"user-content-sable-noire-pointe-de-la-table-\" class=\"anchor\" href=\"#sable-noire-pointe-de-la-table-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Sable noire (Pointe de la Table) :</h4>\n\n<p>Fragments basaltiques vitrux, quelques vésicules, nombreux cristaux de sel, olivines et quelques pyroxènes.</p>\n\n<h4>\n<a id=\"user-content-sable-vert-plage-du-vieux-port-\" class=\"anchor\" href=\"#sable-vert-plage-du-vieux-port-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Sable vert (plage du Vieux Port) :</h4>\n\n<p>Nombreuses olivines non émoussés, basalte vitreux bien \"frais\" quelques vésicules.</p>\n\n<h3>\n<a id=\"user-content-autres\" class=\"anchor\" href=\"#autres\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Autres</h3>\n\n<h4>\n<a id=\"user-content-basalte-à-zéolites\" class=\"anchor\" href=\"#basalte-%C3%A0-z%C3%A9olites\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Basalte à zéolites</h4>\n\n<h4>\n<a id=\"user-content-dunite-cumulative-\" class=\"anchor\" href=\"#dunite-cumulative-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Dunite cumulative :</h4>\n\n<p>Assemblage de cristaux d'olivines comportant quelques \"bulles\" de verre volcanique emprisonnées dans le cristal ou à leurs contacts. Ce verre correspond à des bulles de liquide emprisonnées au moment de la cristallisation.</p>\n\n<h4>\n<a id=\"user-content-pources-\" class=\"anchor\" href=\"#pources-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Pources :</h4>\n\n<p>Structure ultra-vacuolaire. </p>\n\n<h2>\n<a id=\"user-content-critères-de-reconnaissance-minéralogique\" class=\"anchor\" href=\"#crit%C3%A8res-de-reconnaissance-min%C3%A9ralogique\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Critères de reconnaissance minéralogique</h2>\n\n<h3>\n<a id=\"user-content-lumière-naturelle\" class=\"anchor\" href=\"#lumi%C3%A8re-naturelle\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Lumière naturelle</h3>\n\n<h4>\n<a id=\"user-content-couleur-\" class=\"anchor\" href=\"#couleur-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Couleur :</h4>\n\n<p>La plupart des minéraux sont incolores car la lame est trop peu épaisse mais la forte coloration de certains leur permet de gagner une teinte.</p>\n\n<p><a href=\"doc/src/03_01.jpg\" target=\"_blank\"><img src=\"doc/src/03_01.jpg\" alt=\"Lumière naturelle\" style=\"max-width:100%;\"></a></p>\n\n<h4>\n<a id=\"user-content-pléochroïsme-\" class=\"anchor\" href=\"#pl%C3%A9ochro%C3%AFsme-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Pléochroïsme :</h4>\n\n<p>La teinte change lorsque l'on fait tournet la platine du microscope dû à l'angle. Ces minéraux sont pléochroïques.</p>\n\n<p><a href=\"doc/src/03_02.jpg\" target=\"_blank\"><img src=\"doc/src/03_02.jpg\" alt=\"Pléochroïsme\" style=\"max-width:100%;\"></a></p>\n\n<h4>\n<a id=\"user-content-clivage-\" class=\"anchor\" href=\"#clivage-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Clivage :</h4>\n\n<p>Les plans de clivage sont des plans de moindre cohésion dans le minéral. Ce sont des stries fines, rectilignes et parallèles. Certains minéraux en sont dépourvus, d'autre en un ou deux. Dans ce derner cas, on mesure l'angle entre les deux clivages, à l'aide de la platine.</p>\n\n<p><a href=\"doc/src/03_03.jpg\" target=\"_blank\"><img src=\"doc/src/03_03.jpg\" alt=\"Clivage\" style=\"max-width:100%;\"></a></p>\n\n<h4>\n<a id=\"user-content-forme-\" class=\"anchor\" href=\"#forme-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Forme :</h4>\n\n<p>Les minéraux automorphes cristallisent dans leur formes propres, typiquement dans les laves ou pour les premières cristallisations, alors que les minéraux xénomorphes cristallisent plus tardivement et s'arrengent alors entre les autres minéraux.</p>\n\n<p><a href=\"doc/src/03_04.jpg\" target=\"_blank\"><img src=\"doc/src/03_04.jpg\" alt=\"Forme\" style=\"max-width:100%;\"></a></p>\n\n<h4>\n<a id=\"user-content-relief-\" class=\"anchor\" href=\"#relief-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Relief :</h4>\n\n<p>Façon plus ou moins bonne de ressortie, d'apparaître \"en relief\" sur le fond de la lame mince. Mais ce n'est qu'un relief relatif par rapport aux autres minéraux de la lame. La référence est le quartz &lt;!-- (1.54) --&gt; qui délimite les reliefs positifs et négatifs. </p>\n\n<p><a href=\"doc/src/03_05.jpg\" target=\"_blank\"><img src=\"doc/src/03_05.jpg\" alt=\"Relief\" style=\"max-width:100%;\"></a></p>\n\n<h3>\n<a id=\"user-content-lumière-polarisée-et-analysée\" class=\"anchor\" href=\"#lumi%C3%A8re-polaris%C3%A9e-et-analys%C3%A9e\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Lumière Polarisée et Analysée</h3>\n\n<h4>\n<a id=\"user-content-biréfringence-\" class=\"anchor\" href=\"#bir%C3%A9fringence-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Biréfringence :</h4>\n\n<p><a href=\"doc/src/03_06.jpg\" target=\"_blank\"><img src=\"doc/src/03_06.jpg\" alt=\"Biréfringence\" style=\"max-width:100%;\"></a></p>\n\n<h4>\n<a id=\"user-content-angle-dextinction-\" class=\"anchor\" href=\"#angle-dextinction-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Angle d'extinction :</h4>\n\n<p>Mesure entre l'axe d'extinction et la direction de clivage (ou de l'axe cristallographique si le clivage est absent). On parle d'extinction droite ou oblique.</p>\n\n<p><a href=\"doc/src/03_07.jpg\" target=\"_blank\"><img src=\"doc/src/03_07.jpg\" alt=\"Angle d'extinction\" style=\"max-width:100%;\"></a></p>\n\n<h2>\n<a id=\"user-content-reconnaître-les-minéraux-au-microscope\" class=\"anchor\" href=\"#reconna%C3%AEtre-les-min%C3%A9raux-au-microscope\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Reconnaître les minéraux au microscope</h2>\n\n<h3>\n<a id=\"user-content-olivine\" class=\"anchor\" href=\"#olivine\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Olivine</h3>\n\n<p><b>LN :</b> automorphe ou xénomorphe, relief fort, pas de clivage mais craquelures fréquentes, incolore.</p>\n\n<p><b>LPA :</b> biréfringence très élevée, extinction droite pour les sections rectangulaures allongées.</p>\n\n<p><a href=\"doc/src/04_01.jpg\" target=\"_blank\"><img src=\"doc/src/04_01.jpg\" alt=\"\" style=\"max-width:100%;\"></a></p>\n\n<p><strong>Minéral incolore en LN à craquelures fréquentes et à biréfringence élevée en LPA.</strong></p>\n\n<h3>\n<a id=\"user-content-feldspaths\" class=\"anchor\" href=\"#feldspaths\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Feldspaths</h3>\n\n<h4>\n<a id=\"user-content-orthose--sanidine-\" class=\"anchor\" href=\"#orthose--sanidine-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Orthose / Sanidine :</h4>\n\n<p><b>LN :</b> automorphe ou xénomorphe, relief négatif, une ou deux direction de clivages suivant la section visible seulement aux forts grossissements, incolore.</p>\n\n<p><b>LPA :</b> biréfringence faible gris sombre du second ordre, extinction entre 0 et 12° par rapport au clivage.</p>\n\n<p><a href=\"doc/src/04_02.jpg\" target=\"_blank\"><img src=\"doc/src/04_02.jpg\" alt=\"\" style=\"max-width:100%;\"></a></p>\n\n<h4>\n<a id=\"user-content-plagioclases-\" class=\"anchor\" href=\"#plagioclases-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Plagioclases :</h4>\n\n<p><b>LN :</b> automorphe ou xénomorphe, forme généralement rectangulaire, une ou deux directions de clivages visible seulement aux forts grossissements, incolore.</p>\n\n<p><b>LPA :</b> biréfringence faible gris blanc, extinction et allongement variable/</p>\n\n<p><a href=\"doc/src/04_03.jpg\" target=\"_blank\"><img src=\"doc/src/04_03.jpg\" alt=\"\" style=\"max-width:100%;\"></a></p>\n\n<p><strong>Minéraux incolore en LN, de forme souvent rectangulaire et de biréfringence faible.</strong></p>\n\n<h3>\n<a id=\"user-content-biotite\" class=\"anchor\" href=\"#biotite\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Biotite</h3>\n\n<p><b>LN :</b> automorphe, relief moyen, clivage fin et très net, coloration intense dans les tons bruns, pléochroïsme fort.</p>\n\n<p><b>LPA :</b> biréfringence du 2~ème et 3~ème mais vivacité des teintes atténuées, extinction droite.</p>\n\n<p><a href=\"doc/src/04_04.jpg\" target=\"_blank\"><img src=\"doc/src/04_04.jpg\" alt=\"\" style=\"max-width:100%;\"></a></p>\n\n<p><strong>Minéral fin à clivage fin, à biréfringence forte et extinction droite.</strong></p>\n\n<h3>\n<a id=\"user-content-pyroxène\" class=\"anchor\" href=\"#pyrox%C3%A8ne\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Pyroxène</h3>\n\n<p><strong>Minéraux à deux clivages fréquents à 90°</strong></p>\n\n<p><a href=\"doc/src/04_05.jpg\" target=\"_blank\"><img src=\"doc/src/04_05.jpg\" alt=\"\" style=\"max-width:100%;\"></a></p>\n\n<h4>\n<a id=\"user-content-aegyrine-\" class=\"anchor\" href=\"#aegyrine-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Aegyrine :</h4>\n\n<p><b>LN :</b> automorphe, relief très fort, section longitudinale allongée (un clivage) ou section basale carré (deux clivages à 90°), verte, pléochroïsme fort.</p>\n\n<p><b>LPA :</b> biréfringence du 2~ème ou 3~ème ordre, extinction faiblement oblique (2 à 5°).</p>\n\n<h4>\n<a id=\"user-content-augite\" class=\"anchor\" href=\"#augite\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Augite:</h4>\n\n<p><b>LN :</b> automorphe, relief fort, section longitudinale allongée (un clivage) ou section basale carré (deux clivages à 90°), incolore.</p>\n\n<p><b>LPA :</b> biréfringence du second ordre, extinction oblique entre 36 et 45°.</p>\n\n<h4>\n<a id=\"user-content-hypersthène-\" class=\"anchor\" href=\"#hypersth%C3%A8ne-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Hypersthène :</h4>\n\n<p><b>LN :</b> automorphe, relief fort, section longitudinale allongée (un clivage) ou section basale carrée (deux clivages à 90°), incolore. Même chose que pour l'augite.</p>\n\n<p><b>LPA :</b> biréfringence plus faible que pour l'augite, extinction droite.</p>\n\n<h3>\n<a id=\"user-content-amphibioles\" class=\"anchor\" href=\"#amphibioles\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Amphibioles</h3>\n\n<p><strong>Minéraux à deux clivages fréquents à 120°</strong></p>\n\n<p><a href=\"doc/src/04_06.jpg\" target=\"_blank\"><img src=\"doc/src/04_06.jpg\" alt=\"\" style=\"max-width:100%;\"></a></p>\n\n<h4>\n<a id=\"user-content-hornblende-verte-\" class=\"anchor\" href=\"#hornblende-verte-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Hornblende verte :</h4>\n\n<p><b>LN :</b> automorphe, relief moyen, section longitudinale allongée (un clivage) ou section basale hexagonale (deux clivages à 120°), brun pâle, pléochroïsme fort.</p>\n\n<p><b>LPA :</b> biréfringence du 2~nd ordre, extinction oblique inférieure à 10°.</p>\n\n<h4>\n<a id=\"user-content-riebeckite-\" class=\"anchor\" href=\"#riebeckite-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Riebeckite :</h4>\n\n<p><b>LN :</b> automorphe, relief fort, section longitudinale allongée (un clivage) ou section basale hexagonale (deux clivages à 120°), bleu sombre, pléochroïsme très fort.</p>\n\n<p><b>LPA :</b> biréfringence du 1~er ordre masquée par al couleur du minéral, extinction faible (5°).</p>\n</article>",
 			"file": "doc/doc.html",
+			"file_size": 35184,
+			"file_write_time": 131110621731761061,
 			"settings":
 			{
 				"buffer_size": 34824,
@@ -56,7 +71,21 @@
 			}
 		},
 		{
+			"contents": "	CREATE DATABASE citevolcan_db CHARACTER SET 'utf8';\n\n	CREATE TABLE comptes \n	(\n		id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,\n		identifiant VARCHAR(255) NOT NULL,\n		pass VARCHAR(255) NOT NULL,\n		PRIMARY KEY (id)\n	)  ENGINE=INNODB;",
+			"file": "session.sql",
+			"file_size": 231,
+			"file_write_time": 131109100522143661,
+			"settings":
+			{
+				"buffer_size": 232,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"wrap\">\n<a href=\"#\" class=\"petrologieDoc\">Informations sur la pétrologie</a>\n<a href=\"#\" class=\"howToApp\">Se servir de l'application</a>\n</div>\n\n<script type=\"text/javascript\">\n$('.petrologieDoc').on('click', function(){\n  $(\".hero\").load(\"doc/doc.html\");\n});\n\n$('.howToApp').on('click', function(){\n  alert(\"howToApp clicked!\");\n});\n</script>",
 			"file": "docmain.html",
+			"file_size": 355,
+			"file_write_time": 131110621732241061,
 			"settings":
 			{
 				"buffer_size": 354,
@@ -97,7 +126,10 @@
 			}
 		},
 		{
+			"contents": "// $(function() {\n// 	}());\nfunction loadAllDOM(){\n\n	var $btnCapture = $(\"div.next-to > a.capture\"),\n	$divNextTo =  $(\"div.next-to\"),\n	$btnOui = $(\"<a href='#' class='btn-perso2 hollow success button'>Oui</a>\"),\n	$btnNon = $(\"<a href='#' class='btn-perso2 hollow alert button'>Non</a>\"),\n	$message = $(\"<p>Voulez-vous garder cette capture?</p>\");\n\n	var superDiv = $(\"\" +\n	 \"<div class='filterField'>\" +\n	 \"<table>\" +\n	 \"<tr>\" +\n	 \"<td><input type='range' name='bright' id='bright' min='-100' max='100' value='100' /></td>\" +\n	 \"<td><div class='rangeValue'><div id='valueBright'>0</div> Luminosité</div></td>\" +\n	 \"</tr>\" +\n	 \"<tr>\" +\n	 \"<td><input type='range' name='contrast' id='contrast' min='-100' max='100' value='100' /></td>\" +\n	 \"<td><div class='rangeValue'><div id='valueContr'>0</div> Contraste</div></td>\" +\n	 \"</tr>\" +\n	 \"<tr>\" +\n	 \"<td><input type='range' name='nett' id='nett' min='-6' max='6' value='6' /></td>\" +\n	 \"<td><div class='rangeValue'><div id='valueNett'>0</div> Nettetté</div></td>\" +\n	 \"</tr>\" +\n	 \"<tr>\" +\n	 \"<td><input type='checkbox' name='checkGreyscale' id='checkGreyscale' /></td>\" +\n	 \"<td>Balance des blancs</td>\" +\n	 \"</tr>\" +\n	 \"<tr>\" +\n	 \"<td><input type='checkbox' name='checkNegate' id='checkNegate' /></td>\" +\n	 \"<td>Négatif</td>\" +\n	 \"</tr>\" +\n	 \"<tr>\" +\n	 \"<td colspan='2' style='padding:0;'><button class='success button etSValid' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Valider</button></td>\" +\n	 \"</tr>\" +\n	 \"<tr>\" +\n	 \"<td colspan='2' style='padding:0;'><button class='alert button etSRetour' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Retour</button></td>\" +\n	 \"</tr>\" +\n	 \"</table>\" +\n	 \"</div>\" +\n	 \"\");\n\n\n	$btnCapture.on(\"click\", function(){\n		getCanvas();\n		yesNoConfirmation();\n	});\n\n	$($btnNon).on(\"click\", retourEtapeOne);\n	$($btnOui).on(\"click\", goToEtapeTwo);\n\n\n\n\n	function yesNoConfirmation(){\n		/*		alert(\"YOLO\")*/\n		/*	  event.preventDefault();*/\n		var divControle = $divNextTo;\n		$btnCapture.hide(200, function() {\n			$divNextTo.animate({'top':'50px'});\n			$btnNon.prependTo(divControle).hide().slideDown();\n			$btnOui.prependTo(divControle).hide().slideDown();\n			$message.prependTo(divControle).hide().slideDown();\n		});\n	}\n\n\n	function retourEtapeOne(){\n		superDiv.remove();\n		$(\"h1\").text(\"1 - Réaliser une capture\");\n		$btnNon.slideUp(function(){$(this).hide();});\n		$btnOui.slideUp(function(){$(this).hide();});\n		$message.slideUp(function(){$(this).hide();});\n		$divNextTo.animate({'top':'40%'});\n		$btnCapture.slideDown();\n	      finished = []; //Réinitialise le array à zéro.\n	      getStream(); // Reprend le cours du stream\n	  }\n\n\n	  function goToEtapeTwo(){\n	  	$btnOui.slideUp(function(){$(this).hide();});\n	  	$btnNon.slideUp(function(){$(this).hide();});\n	  	$btnCapture.animate({'right':'120%'});\n	  	$message.slideUp(function(){\n	  		$(this).hide();\n	  		$(\"h1\").text(\"2 - Effectuer des changements\");\n	  		$divNextTo.append(superDiv)\n	  		.css({'top':'130%'},400).animate({'top':'5%'},400)\n	  		;\n	  		Slider();\n	  		// ZoomImage();\n	  		$(\".etSValid\").on('click', function () {\n	  			alert(\"Test OK\");\n	  		});\n	  		$(\".etSRetour\").on('click', function () {\n	  			$btnCapture.animate({'right':'120%'});\n	  			// $divNextTo.animate({'top':'50px'}).show();\n	  			retourEtapeOne();\n	  		});\n	  	});\n	  }\n\n\n	};",
 			"file": "js/dom_manip.js",
+			"file_size": 3327,
+			"file_write_time": 131110621732761061,
 			"settings":
 			{
 				"buffer_size": 3320,
@@ -105,7 +137,10 @@
 			}
 		},
 		{
+			"contents": "/* - - - - - - - - - - - - - - - - - - - - \nGENERAL\n- - - - - - - - - - - - - - - - - - - - */\n.wrap {\n	width: 90%;\n	margin: 0 auto;\n}\n\n\n\n\n/* - - - - - - - - - - - - - - - - - - - - \nNAV-MOBILE\n- - - - - - - - - - - - - - - - - - - - */\n\n\n\n/* - - - - - - - - - - - - - - - - - - - - \nNAV-DESKTOP\n- - - - - - - - - - - - - - - - - - - - */\n.nav-desktop {\n	background-color: #333;\n	height: 80px;\n	padding: 0;\n}\n\n.site-logo {\n	color: white;\n	line-height: 80px;\n}\n\n/* Juste recopy the strongest rule in Inspector then paste it there */\n/*.top-bar ul { \n	background-color: white;\n	}*/\n\n	/*But we could do it especially with an user defined node that is the parent of the node*/\n	.nav-desktop .menu-desktop {\n		line-height: 80px;\n		background-color: transparent;\n	}\n\n	.menu > li > a {\n		display: inline-block;\n		line-height: 80px;\n		padding-top: 0;\n		padding-bottom: 0;\n\n	}\n\n	.menu > li > a:hover {\n		background-color: rgba(255,255,255,0.05);\n	}\n\n	.class-button-logo{\n		background: url(\"../img/logo2.jpg\") no-repeat 0 -2px transparent;!important\n		float: left;\n		padding-left:72px;\n	}\n\n\n/* - - - - - - - - - - - - - - - - - - - - \nHERO\n- - - - - - - - - - - - - - - - - - - - */\n.hero {\n	background-color: #999;\n	padding: 80px 0px;\n	/*height: 400px;*/\n	background-image: url(\"../img/pattern.png\");\n}\n\n.hero h1,\n.hero p {\n	width: 70%;\n}\n\n#ensemble {\n	position: relative;\n}\n\n\n\n.btn-perso1 {\n	font-size: 2.5rem;\n	padding: .5em 2em;\n	margin: 0 -50px;\n}\n\n.btn-perso2 {\n	font-size: 2rem;\n	padding: .3em 5em;\n	display: block;\n}\n\n.couleur-perso1 {\n	background-color: #892A2A;\n}\n\n.couleur-perso1:hover, .couleur-perso1:active {\n	background-color: #B53A3A;\n}\n\n#webcam {\n	margin: 40px 0;\n}\n\n.next-to {\n		float: left;\n		position : absolute;\n		top:40%\n}\n\n\n/* - - - - - - - - - - - - - - - - - - - - \nMAIN SECTION\n- - - - - - - - - - - - - - - - - - - - */\n.main {\n	padding: 80px 0px;\n	background-color: #333;\n}\n\n.main p {\n	color: #666;\n}\n\n.main h1 {\n	color: #777;\n}\n\n.main hr {\n	border-color: #222;\n}\n\n\n\n\n\n\n\n/* - - - - - - - - - - - - - - - - - - - - \nFOOTER\n- - - - - - - - - - - - - - - - - - - - */\n\nfooter {\n	background-color: #222;\n	padding: 80px 0px;\n	font-size: 12px;\n}\n\nfooter h4 {\n	color: rgba(255,255,255,0.8);\n	font-size: 1.3em;\n}\n\nfooter a {\n	display: block;\n	color: rgba(255,255,255,0.8);\n	font-size: 0.8em;\n}\n\nfooter a span {\n	font-weight: bold;\n	color: rgba(255,255,255,0.8);\n}\n\nfooter a:hover {\n	color: rgba(255,255,255,0.5);\n}\n\nfooter hr {\n	border-color: rgba(255,255,255,0.05);\n	margin: 10px 0;\n}\n\n/* - - - - - - - - - - - - - - - - - - - - \nMEDIA QUERIES\n- - - - - - - - - - - - - - - - - - - - */\n\n@media (max-width: 639px) {\n	.nav-desktop {\n		display: none;\n	}\n}",
 			"file": "css/monstyle.css",
+			"file_size": 2664,
+			"file_write_time": 131110621731601061,
 			"settings":
 			{
 				"buffer_size": 2664,
@@ -121,7 +156,10 @@
 			}
 		},
 		{
+			"contents": "<?php\n$url = $_POST['dataURL'];\n/*\nConduct image verification, etc.\n*/\n$data = file_get_contents($url);\n/*$img_ext = get_ext($url);*/ //Create function \"get_ext()\" that gets file extension\n\necho 'data:image/jpeg;base64,'.base64_encode($data);\n\n?>",
 			"file": "img.php",
+			"file_size": 256,
+			"file_write_time": 131110621732321061,
 			"settings":
 			{
 				"buffer_size": 246,
@@ -446,6 +484,9 @@
 	],
 	"file_history":
 	[
+		"/home/pop/Bureau/SUBLIME.sh",
+		"/home/pop/Bureau/TODAY/indent.sh",
+		"/home/pop/Bureau/UBUNTU PROBLEMS.txt",
 		"/home/pop/Dropbox/travail/CIRAD PROJET 2016/DOCU_PETRO/04_reconnaitre_les_mineraux.md",
 		"/home/pop/Dropbox/travail/CIRAD PROJET 2016/DOCU_PETRO/03_criteres_reconnaissance.md",
 		"/home/pop/Dropbox/travail/CIRAD PROJET 2016/DOCU_PETRO/02_roches_reunion.md",
@@ -727,7 +768,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -743,21 +784,12 @@
 						"selection":
 						[
 							[
-								1169,
-								1169
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 3,
-								"count": 32,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.regions":
 							[
@@ -826,7 +858,7 @@
 						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -852,15 +884,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 6,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"_anf_new": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.regions":
@@ -930,7 +953,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -952,15 +975,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 114,
-								"count": 450,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"_anf_new": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.regions":
@@ -1028,7 +1042,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1044,24 +1058,12 @@
 						"selection":
 						[
 							[
-								3426,
-								3426
-							],
-							[
-								3518,
-								3518
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "javascript"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.regions":
 							[
@@ -1130,7 +1132,7 @@
 						"translation.y": 2850.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1152,15 +1154,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 57,
-								"count": 3045,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.regions":
 							[
@@ -1229,11 +1222,107 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "session.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "sql"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (SL).tmTheme",
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "docmain.html",
 					"semi_transient": false,
 					"settings":
@@ -1251,74 +1340,65 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 204,
-								"count": 8,
-								"modified": false,
-								"selection": true,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"_anf_new": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (SL).tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
@@ -1331,7 +1411,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/home/pop/Téléchargements/superviser/scripts_rrdtools/graphes.sh",
 					"semi_transient": false,
 					"settings":
@@ -1416,11 +1496,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/home/pop/Téléchargements/superviser/scripts_rrdtools/maj_donnees.sh",
 					"semi_transient": false,
 					"settings":
@@ -1505,11 +1585,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "/home/pop/Téléchargements/superviser/scripts_rrdtools/monitoring.sh",
 					"semi_transient": false,
 					"settings":
@@ -1594,11 +1674,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1683,11 +1763,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "js/dom_manip.js",
 					"semi_transient": false,
 					"settings":
@@ -1772,11 +1852,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "css/monstyle.css",
 					"semi_transient": false,
 					"settings":
@@ -3785,11 +3865,11 @@
 						"translation.y": 741.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "/home/pop/.config/sublime-text-3/Packages/User/bh_core.sublime-settings",
 					"semi_transient": false,
 					"settings":
@@ -3873,11 +3953,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "img.php",
 					"semi_transient": true,
 					"settings":
@@ -3902,7 +3982,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 14,
 					"type": "text"
 				}
 			]

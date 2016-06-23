@@ -41,11 +41,20 @@
 $(document).ready(function () {
   var normal={width: "640px",height: "480px"};
   var large={width: "1280px",height: "960px"};
+  var small={width: "480px",height: "360px"};
+// for (i=0 ; i < $(document).find('img').length; i++) {
+//   var countable[i]=1;
+// }
   var count=1;
   $('img').css(normal);
 $('img').on('click',function(e){
   e.preventDefault();
-            $(this).animate((count==1)?large:normal);
+  if (count == 1) {
+    $('img').animate(small);
+    $(this).animate(large);
+  } else {
+        $('img').animate(normal);
+  }
             count = 1-count;
 });
 });
