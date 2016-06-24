@@ -108,4 +108,12 @@ http://opencv.org/documentation.html
 https://www.google.com/search?q=cmakelists+include+headers&oq=cmakelists+include+headers&aqs=chrome..69i57j69i60j0l4.5667j0j4&client=ubuntu&sourceid=chrome&ie=UTF-8
 
 OpenGL Warning: glXGetFBConfigAttrib for 096f82b0, failed to get XVisualInfo
---------------------------------------------------
+-------------------------------------------------
+
+https://text.sourcegraph.com/code-usage-examples-in-your-editor-as-you-type-f7fc89d894dd#.62u34359x
+
+http://stackoverflow.com/questions/14743389/using-opencv-to-match-an-image-from-a-group-of-images-for-purpose-of-identificat
+
+http://docs.opencv.org/2.4/doc/tutorials/features2d/feature_flann_matcher/feature_flann_matcher.html
+
+http://docs.opencv.org/2.4/modules/stitching/doc/matching.html

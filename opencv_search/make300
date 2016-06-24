@@ -3,9 +3,14 @@ CPP = g++
 # OpenCV 3.0.0
 CPPFLAGS = -L/usr/local/lib \
 	-I/usr/local/include/opencv \
+	-I/usr/local/include/opencv2 \
 	-I/usr/local/include 
 
-all: test
+LINKERS = -lopencv_core \
+	-lopencv_imgproc \
+	-lopencv_highgui
 
-test: main.cpp
-	$(CPP) $(CPPFLAGS) $^ -o $@
+all: test_300
+
+test_300: main.cpp
+	$(CPP) $(CPPFLAGS) $^ -o $@ $(LINKERS)

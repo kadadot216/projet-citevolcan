@@ -1,0 +1,40 @@
+//https://gist.github.com/anonymous/cb54f8c54ecf043461d31eac9d66181b
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"name": "",
+			"folder_exclude_patterns": [],
+			"file_exclude_patterns": []
+		}
+	],
+	"build_systems":
+	[
+		{
+			"cmd":[],
+			"encoding": "utf-8",
+			"name": "",
+			"working_dir": "${file_path:${folder}}",
+				"windows": {
+			  "cmd": []
+			},
+				"linux": {
+			  "cmd": []
+			},
+			"variants": 
+			[
+				{
+					"name": "",
+					"cmd": []
+				}
+			]
+		}
+	],
+	    "settings":
+	    {
+	        "tab_size": 4,
+	        "translate_tabs_to_spaces": true
+
+	}
+}

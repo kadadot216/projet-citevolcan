@@ -1,11 +1,16 @@
 CPP = g++
 
-# OpenCV 3.0.0
+# OpenCV 2.4.9
 CPPFLAGS = -L/home/$(USER)/bin/opencv249/lib \
 	-I/home/$(USER)/bin/opencv249/include/opencv \
+	-I/home/$(USER)/bin/opencv249/include/opencv2 \
 	-I/home/$(USER)/bin/opencv249/include 
 
-all: test
+LINKERS = -lopencv_core \
+	-lopencv_imgproc \
+	-lopencv_highgui
 
-test: main.cpp
-	$(CPP) $(CPPFLAGS) $^ -o $@
+all: test_249
+
+test_249: main.cpp
+	$(CPP) $(CPPFLAGS) $^ -o $@ $(LINKERS)

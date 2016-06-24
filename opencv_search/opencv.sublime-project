@@ -1,0 +1,37 @@
+//https://gist.github.com/anonymous/cb54f8c54ecf043461d31eac9d66181b
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"name": "",
+			"folder_exclude_patterns": [],
+			"file_exclude_patterns": ["*.mp4"]
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "make",
+			"cmd":[],
+			"encoding": "utf-8",
+			"working_dir": "${file_path:${folder}}",
+			"variants": 
+			[
+				{
+					"name": "OpenCV 3.0.0",
+					"cmd": ["make","--file=make300"]
+				},
+				{
+					"name": "OpenCV 2.4.9",
+					"cmd": ["make","--file=make249"]
+				}
+			]
+		}
+	],
+	    "settings":
+	    {
+	        "tab_size": 4,
+	        "translate_tabs_to_spaces": false
+	}
+}
