@@ -6,11 +6,13 @@
 #			- trafic_tcp.rrd
 #			- memoire.rrd
 #			- cpu.rrd
+#Ce script est a ajouter dans /etc/crontab sous la forme :
+#* * * * * root /var/www/rrdtool/update_auto.sh >/dev/null
 
-clear
+
 date_immediate=$(date +%s)
 Machine=$(echo "$HOSTNAME")
-ICI=$(cd $(dirname "$0") && pwd)
+ICI=$(pwd)
 doss_image="$ICI/../graphs/"
 doss_rrd="$ICI/../rrdtool/"
 mkdir -p $doss_image

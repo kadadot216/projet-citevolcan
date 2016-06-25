@@ -6,7 +6,7 @@
 #			- trafic_tcp.rrd
 #			- memoire.rrd
 #			- cpu.rrd
-
+#Ce script doit etre lancer qu'une seule fois
 clear
 cat << FIN
 ========= RRDTools Tool =========
@@ -15,11 +15,12 @@ Créer la base de données
 FIN
 date_immediate=$(date +%s)
 Machine=$(echo "$HOSTNAME")
-ICI=$(cd $(dirname "$0") && pwd)
+ICI=$(pwd)
 doss_image="$ICI/../graphs/"
 doss_rrd="$ICI/../rrdtool/"
 mkdir -p $doss_image
 mkdir -p $doss_rrd
+
 
 			#création d'une RRD (fichier de base de donnée) pour log de trafic sur eth0 :
 			#création d'une DataSource de type compteur pour le nombre d'octets reçus :
@@ -62,3 +63,11 @@ mkdir -p $doss_rrd
 			RRA:LAST:0.5:1:1440 \
 			RRA:AVERAGE:0.5:5:2016 \
 			RRA:AVERAGE:0.5:5:2016
+
+if [ $? -gt 0 ]; 
+  then
+    echo "Erreur lors de la création des RRD"
+
+    else
+    echo "Les RRD ont été crées avec succès"
+fi

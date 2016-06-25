@@ -158,7 +158,7 @@ loadApp();
 $('.mainApp').on('click', loadApp);
     
 $('.superVision').on('click', function(){
-  $(".hero > .wrap").load("supervisation.html");
+  $(".hero > .wrap").load("supervision.html");
 });
 
 $('.ongletDoc').on('click', function(){

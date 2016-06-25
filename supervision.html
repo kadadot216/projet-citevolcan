@@ -30,16 +30,16 @@
             <button class="button toggle" id="cpu-1w">Sur 1 semaine</button>
             </td>
             <td>
-            <button class="button toggle" id="memoire-3w">Sur 3 heures</button>
+            <button class="button toggle" id="memoire-3h">Sur 3 heures</button>
             <button class="button toggle" id="memoire-1d">Sur 1 jour</button>
             <button class="button toggle" id="memoire-1w">Sur 1 semaine</button>
             </td>
           </tr>
           <tr>
             <td><p class="big-font">
-            <b>Température °C</b>
+            <b>Trafic TCP</b>
           </p><br>  
-          <a href="#"><img border=1 alt="" id="temperature_img" src="graphs/temperature-3h.png"  /></a><br>
+          <a href="#"><img border=1 alt="" id="trafic_tcp_img" src="graphs/trafic_tcp-3h.png"  /></a><br>
           <small><!--#flastmod file="syls-virtualbox_tcp.html" --></small></td>
             <td><p class="big-font">
             <b>Traffic sur <i>eth0</i></b>
@@ -49,9 +49,9 @@
           </tr>
           <tr>
             <td>
-            <button class="button toggle" id="temperature-3h">Sur 3 heures</button>
-            <button class="button toggle" id="temperature-1d">Sur 1 jour</button>
-            <button class="button toggle" id="temperature-1w">Sur 1 semaine</button>
+            <button class="button toggle" id="trafic_tcp-3h">Sur 3 heures</button>
+            <button class="button toggle" id="trafic_tcp-1d">Sur 1 jour</button>
+            <button class="button toggle" id="trafic_tcp-1w">Sur 1 semaine</button>
             </td>
             <td>
             <button class="button toggle" id="trafic_eth0-3h">Sur 3 heures</button>
@@ -91,7 +91,7 @@ $('#cpu-3h, #cpu-1d, #cpu-1w').on('click', function(){
   console.log(item.src);
 });
 
-$('#memoire-3h, #memoire-1d, #memoire-1w').on('click', function(){
+$('#memoire-1d, #memoire-1w,#memoire-3h').on('click', function(){
   var patt = /(graphs\/)(.*)(\.png)/g;
   var item = document.getElementById('memoire_img');
   var selectedId = $(this)[0].id;
@@ -99,9 +99,9 @@ $('#memoire-3h, #memoire-1d, #memoire-1w').on('click', function(){
   console.log(item.src);
 });
 
-$('#temperature-3h, #temperature-1d, #temperature-1w').on('click', function(){
+$('#trafic_tcp-3h, #trafic_tcp-1d, #trafic_tcp-1w').on('click', function(){
   var patt = /(graphs\/)(.*)(\.png)/g;
-  var item = document.getElementById('temperature_img');
+  var item = document.getElementById('trafic_tcp_img');
   var selectedId = $(this)[0].id;
   item.src = item.src.replace(patt, '$1'+selectedId+'$3');
   console.log(item.src);
