@@ -1,16 +1,25 @@
 CPP = g++
 
 # OpenCV 2.4.9
-CPPFLAGS = -L/home/$(USER)/bin/opencv249/lib \
-	-I/home/$(USER)/bin/opencv249/include/opencv \
+CPPFLAGS = -I/home/$(USER)/bin/opencv249/include/opencv \
 	-I/home/$(USER)/bin/opencv249/include/opencv2 \
 	-I/home/$(USER)/bin/opencv249/include 
 
+MORE = -I/usr/include/c++/4.9
+
+LIBLINKS = -L/home/$(USER)/bin/opencv249/lib
+
+# Pour nonfree
 LINKERS = -lopencv_core \
 	-lopencv_imgproc \
-	-lopencv_highgui
+	-lopencv_highgui \
+	-lopencv_nonfree \
+	-lopencv_features2d \
 
-all: test_249
+all: mon_programme64 mon_programme32
 
-test_249: main.cpp
-	$(CPP) $(CPPFLAGS) $^ -o $@ $(LINKERS)
+mon_programme64: main.cpp
+	$(CPP) $(CPPFLAGS) $(LIBLINKS) $^ -o $@ $(LINKERS)
+
+mon_programme32: main.cpp
+	$(CPP) -m32 $(MORE) $(CPPFLAGS) $(LIBLINKS) $^ -o $@ $(LINKERS)

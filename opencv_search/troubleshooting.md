@@ -82,7 +82,9 @@ http://stackoverflow.com/questions/23922620/open-cv-not-loading-correctly
 
 Supprimer/Détécter openCV : 
 
-``sudo find /usr/local/lib/ -name "*opencv*" -exec echo {} \;``
+```
+sudo find /usr/local/lib/ -name "*opencv*" -exec echo {} \;
+```
 
 Plusieurs versions de OpenCV et CMAKING : 
 
@@ -100,8 +102,9 @@ Compilation installation de ffmpeg
 ./configure --enable-shared
 sudo make install
 
-
-cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON  .. && make -j4 && sudo make install && sudo ldconfig
+```
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON  .. && make -j5 && sudo make install && sudo ldconfig
+```
 
 http://opencv.org/documentation.html
 
@@ -117,3 +120,22 @@ http://stackoverflow.com/questions/14743389/using-opencv-to-match-an-image-from-
 http://docs.opencv.org/2.4/doc/tutorials/features2d/feature_flann_matcher/feature_flann_matcher.html
 
 http://docs.opencv.org/2.4/modules/stitching/doc/matching.html
+
+----
+
+INSTALLER openCV nonfree pour supporter SURF, SITD et le reste en 3.0.0 (finalement switché sous 2.4.9)
+``-DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ``
+
+
+Link les librairies manquantes si on installe un framework dans un endroit spécifique!
+
+libopencv_features2d.so     -->         -lopencv_features2d
+
+http://stackoverflow.com/questions/12335848/opencv-program-compile-error-libopencv-core-so-2-4-cannot-open-shared-object-f
+
+
+VERSION 32 bits
+
+sudo apt-get install g++-4.8-multilib
+
+sudo apt-get install gcc-multilib g++-multilib
