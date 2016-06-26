@@ -40,3 +40,5 @@ Lundi 27/06/2016 - 00:33:29: Plugin Peaufiné!
 ```
 
 NOICE :^)
+
+00:52:56 : Réussi à organiser par id l'image le plus ressemblant à celui le moins ressemblant !
