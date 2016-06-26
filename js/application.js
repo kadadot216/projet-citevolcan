@@ -3,8 +3,8 @@ var finished = []; // References to img objects which have finished downloading
 var paused = false;
 var histo = 0;
 var apachePrefix = window.location.protocol + "//" + window.location.hostname + ":8080";
-var DataURL;
-var DataURLbis;
+var dataPreview;
+var dataURL;
 
 var getStream = function()
 {
@@ -20,7 +20,7 @@ var getCanvas = function() {
     data:{dataURL:URL},
     success: function(data){
       drawCanvas(data);
-      DataURL = data.replace("data:image/jpeg;base64,","");
+      dataPreview = data.replace("data:image/jpeg;base64,","");
     },
     error: function(err) {
       console.table(err);
@@ -67,7 +67,7 @@ function callImgMatching() {
    $.ajax({
   type:"POST",
   url: "imgMatch.php",
-  data: {dataString: DataURLbis},
+  data: {dataString: dataURL},
 
   success: function(response){
     console.log("done");
@@ -103,7 +103,7 @@ function Actualiser()
  $.ajax({
   type:"POST",
   url: "data.php",
-  data: {dataString: DataURL,
+  data: {dataString: dataPreview,
     brightness: brightVal,
     contrast: contrVal,
     nett: nettVal,
@@ -113,7 +113,7 @@ function Actualiser()
   success: function(data){
     // console.log(data);
     drawCanvas(data);
-    DataURLbis = data.replace("data:image/jpeg;base64,","");
+    dataURL = data.replace("data:image/jpeg;base64,","");
 
   },
   error: function(err){

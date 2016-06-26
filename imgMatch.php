@@ -1,6 +1,6 @@
 <?php  
 $inputdata = $_POST['dataString'];
-$file = './match.jpeg';
+$file = 'tmp/match.jpeg';
 
 
 $inputdata = str_replace(' ','+',$inputdata);
@@ -13,12 +13,12 @@ chmod($file, 0777);
 
 
 
-exec('opencv_search/match_img '.$file.' opencv_search/output.jpg',$output);
+exec('opencv_search/match_img '.$file.' opencv_search/lena.jpg',$output);
 // echo $output[0];
 echo $output[0];
 // echo $inputdata;
 
-// unlink($file);
+unlink($file);
 
 
 ?>
