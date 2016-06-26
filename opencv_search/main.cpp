@@ -47,10 +47,11 @@ int main( int argc, char** argv )
   matcher.match( descriptors_1, descriptors_2, matches );
 
 // Affiche chaque keypoint ainsi que la différence qui permet de déterminer la possible similitude
-cout << "Keypoints image 1 : " << keypoints_1.size() << endl;
-cout << "Keypoints image 2 : " << keypoints_2.size() << endl;
+// cout << "Keypoints image 1 : " << keypoints_1.size() << endl;
+// cout << "Keypoints image 2 : " << keypoints_2.size() << endl;
 int diff = abs((int)keypoints_2.size()-(int)keypoints_1.size());
-cout << "Keypoint difference : " <<  diff << endl;
+cout <<  diff << endl;
 
-  return abs((int)keypoints_2.size()-(int)keypoints_1.size());
+  return 0;
+  // return abs((int)keypoints_2.size()-(int)keypoints_1.size());
   }
