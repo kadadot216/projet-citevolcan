@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <iostream>
-#include <cstdlib>
-#include <cmath>
 #include "opencv2/core/core.hpp"
 #include <opencv2/legacy/legacy.hpp>
 #include <opencv2/nonfree/features2d.hpp>
@@ -10,8 +8,9 @@
 using namespace cv;
 using namespace std;
 
+void readme();
 
-
+/** @function main */
 int main( int argc, char** argv )
 {
   if( argc != 3 )
@@ -23,7 +22,7 @@ int main( int argc, char** argv )
   if( !img_1.data || !img_2.data )
    { return -1; }
 
-  // Détéction de chaque pixel intéressant grâce à SURF
+  //-- Step 1: Detect the keypoints using SURF Detector
   int minHessian = 400;
 
   SurfFeatureDetector detector( minHessian );
@@ -33,7 +32,7 @@ int main( int argc, char** argv )
   detector.detect( img_1, keypoints_1 );
   detector.detect( img_2, keypoints_2 );
 
-  // Crée les vecteurs avec chaque point de correspondance
+  //-- Step 2: Calculate descriptors (feature vectors)
   SurfDescriptorExtractor extractor;
 
   Mat descriptors_1, descriptors_2;
@@ -41,16 +40,23 @@ int main( int argc, char** argv )
   extractor.compute( img_1, keypoints_1, descriptors_1 );
   extractor.compute( img_2, keypoints_2, descriptors_2 );
 
-  //Méthode de matching de type BruteForce qui cherche chaque pixel.
+  //-- Step 3: Matching descriptor vectors with a brute force matcher
   BruteForceMatcher< L2<float> > matcher;
   vector< DMatch > matches;
   matcher.match( descriptors_1, descriptors_2, matches );
+  //-- Draw matches
+  Mat img_matches;
+  drawMatches( img_1, keypoints_1, img_2, keypoints_2, matches, img_matches );
+cout << "keypoint1 : " << keypoints_1.size() << endl;
+cout << "keypoint2 : " << keypoints_2.size() << endl;
+  //-- Show detected matches
+  imshow("Matches", img_matches );
 
-// Affiche chaque keypoint ainsi que la différence qui permet de déterminer la possible similitude
-cout << "Keypoints image 1 : " << keypoints_1.size() << endl;
-cout << "Keypoints image 2 : " << keypoints_2.size() << endl;
-int diff = abs((int)keypoints_2.size()-(int)keypoints_1.size());
-cout << "Keypoint difference : " <<  diff << endl;
+  waitKey(0);
 
-  return abs((int)keypoints_2.size()-(int)keypoints_1.size());
+  return 0;
   }
+
+ /** @function readme */
+ void readme()
+ { cout << " Usage: ./SURF_descriptor <img1> <img2>" << endl; }

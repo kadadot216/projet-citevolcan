@@ -16,9 +16,9 @@ LINKERS = -lopencv_core \
 	-lopencv_nonfree \
 	-lopencv_features2d \
 
-all: mon_programme64 mon_programme32
+all: match_img #mon_programme32
 
-mon_programme64: main.cpp
+match_img: main.cpp
 	$(CPP) $(CPPFLAGS) $(LIBLINKS) $^ -o $@ $(LINKERS)
 
 mon_programme32: main.cpp
