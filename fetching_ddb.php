@@ -1,4 +1,5 @@
 <?php
+
 function connectDB($localhost,$login,$passwd,$dbb ) {
 	$conn = new mysqli($localhost, $login, $passwd, $dbb);
 	echo ($conn->connect_error) ? "Erreur de connection: ". $conn->connect_error . "\n" : "Connection réussie!\n";
@@ -21,12 +22,17 @@ function fetchDB($link) {
 		<th>PATH</th>
 		</tr>";
 		while($row = $result->fetch_assoc()) {
-			echo "<tr>
-			<td>".$row["id"]."</td>
-			<td>".$row["nom"]."</td>
-			<td>".$row["famille_nom"]."</td>
-			<td>".$row["image_path"]."</td>
-			</tr>";
+			// echo "<tr>
+			// <td>".$row["id"]."</td>
+			// <td>".$row["nom"]."</td>
+			// <td>".$row["famille_nom"]."</td>
+			// <td>".$row["image_path"]."</td>
+			// </tr>";
+			global $id, $nom, $famille, $image_path;
+			$id [] = $row["id"];
+			$nom [] = $row["nom"];
+			$famille [] = $row["famille_nom"];
+			$image_path [] = $row["image_path"];
 		}
 	} else {
 		echo "0 results";
@@ -37,8 +43,25 @@ function closeDB($link) {
 	$link->close();
 }
 
+
 $link = connectDB("localhost","root","111111","citevolcan_db");
 fetchDB($link);
 closeDB($link);
 
+for ($i=0; $i <=sizeof($id);$i++){
+	echo "<tr><td>".$id[$i]."</td><td>".$nom[$i]."</td><td>".$famille[$i]."</td><td>".$image_path[$i]."</td><td></br>";
+}
+
+echo "</br>";
+for ($i=0; $i <=sizeof($id);$i++){
+echo "<img src=".$image_path[$i].">";
+}
 ?>
+
+
+<!-- 
+$row["id"];
+$row["nom"];
+$row["famille_nom"];
+$row["image_path"];
+ -->
