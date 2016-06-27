@@ -66,12 +66,11 @@ Actualiser();
 function callImgMatching() {
    $.ajax({
   type:"POST",
-  url: "imgMatch.php",
+  url: "imgMatch3.php",
   data: {dataString: dataURL},
 
   success: function(response){
-    console.log("done");
-    alert(response);
+    $('#webcam').html(response);
   },
   error: function(err){
     console.log(err);

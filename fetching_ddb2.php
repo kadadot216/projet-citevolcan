@@ -7,9 +7,13 @@ function connectDB($localhost,$login,$passwd,$dbb ) {
 }
 
 function fetchDB($link) {
-	$sqlr = "SELECT mineraux.id,mineraux.nom,famille.famille_nom,mineraux.image_path 
-		FROM mineraux LEFT JOIN famille 
-		ON famille.id=mineraux.famille_id ";
+	$sqlr = "SELECT mineraux.id,mineraux.nom,famille.famille_nom,type.type_nom,mineraux.image_path 
+		FROM mineraux 
+		LEFT JOIN famille 
+		ON famille.id=mineraux.famille_id
+		LEFT JOIN type
+		ON type.id=mineraux.type_id
+		";
 	// 	$sqlr = "SELECT c.*,p.* FROM mineraux c, famille p WHERE c.famille_id=p.id";
 	$result = $link->query($sqlr);
  
@@ -19,7 +23,9 @@ function fetchDB($link) {
 			$id [] = $row["id"];
 			$nom [] = $row["nom"];
 			$famille [] = $row["famille_nom"];
+			$type [] = $row['type_nom'];
 			$image_path [] = $row["image_path"];
+
 		}
 	} else {
 		echo "0 results";
@@ -35,14 +41,16 @@ $link = connectDB("localhost","root","111111","citevolcan_db");
 fetchDB($link);
 closeDB($link);
 
-// for ($i=0; $i <=sizeof($id);$i++){
-// 	echo "<tr><td>".$id[$i]."</td><td>".$nom[$i]."</td><td>".$famille[$i]."</td><td>".$image_path[$i]."</td><td></br>";
-// }
+echo "<table>";
+for ($i=0; $i <=sizeof($id);$i++){
+	echo "<tr><td>".$id[$i]."</td><td>".$nom[$i]."</td><td>".$famille[$i]."</td><td>".$type[$i]."</td><td>".$image_path[$i]."</td><td></br>";
+}
 
-// echo "</br>";
-// for ($i=0; $i <=sizeof($id);$i++){
-// echo "<img src=".$image_path[$i].">";
-// }
+echo "</table>";
+echo "</br>";
+for ($i=0; $i <=sizeof($id);$i++){
+echo "<img src=".$image_path[$i].">";
+}
 
 // $row["id"];
 // $row["nom"];

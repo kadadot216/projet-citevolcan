@@ -1,3 +1,30 @@
+<style type="text/css">
+	.tContainer {
+		width: 350px;
+	}
+	.thumb {
+		width: 350px;
+		height: 100px;
+		position: relative;
+
+	}
+	.thumb:hover {
+		height: 437px;
+	}
+	.insideThumb tr, .insideThumb td {
+		padding: 0;
+		margin:0;
+		border: 3px;
+		background-color: #AAAAAA;
+		width: 350px;
+	}
+	.numero {
+		font-size:2em;
+		color: #EEE;
+		position: absolute; 
+		top: 100px;
+	}
+</style>
 <?php  
 
 include_once('fetching_ddb.php');
@@ -66,20 +93,16 @@ function echange(&$T,$a,$b)
 	$T[$b] = $tmp;
 }
 
-echo "<br/><br/>";
-
-
-echo "<table>";
 	
-echo "<tr> <td>POSITION</td> <td>ID BDD</td> <td>NOM MINERAUX</td> <td>FAMILLE MINERAUX</td> <td>VALEUR PROGRAMME</td><td>IMAGE</td></tr>";
+
 $i=1;
  foreach ($cresults as $value) {
- 	if ($i<8){
-	echo "<tr><td>".$i."</td><td>".$id[$value['id']]."</td><td>".$nom[$value['id']]."</td><td>".$famille[$value['id']]."</td><td>".$value['result']."</td><td><img width='200' src=".$image_path[$value['id']]."></td></tr>";
+ 	if ($i<4){
+	echo "<div class='tContainer'><div  class='thumb' style='background: url(".$image_path[$value['id']].");'></div><span class='numero'>".$i."</span><div class='insideThumb'><table><tr><td><p>Nom : ".$nom[$value['id']]."</p></td></tr><tr><td><p>Famille : ".$famille[$value['id']]."</p></td></tr><tr><td><p>diff  : ".$value['result']."</p></td></tr></table>
+	</div></div>";
 	$i++;
  	}
 }
 
-echo "</table>";
 
 ?>

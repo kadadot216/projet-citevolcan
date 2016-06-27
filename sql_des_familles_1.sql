@@ -30,9 +30,9 @@ CREATE TABLE IF NOT EXISTS citevolcan_db.mineraux
 INSERT INTO citevolcan_db.famille
 	(famille_nom)
 	VALUES
-	('Granites'),
-	('Magmatiques'),
-	('Metamorphiques'),
+	('Pyroxenes'),
+	('Amphibioles'),
+	('Micas'),
 	('Plutoniques') 
 	;
 
@@ -76,6 +76,8 @@ ALTER TABLE citevolcan_db.mineraux DROP FOREIGN KEY fk_fam;
 DROP table citevolcan_db.famille;
 -- DROP table famille;
 DROP table citevolcan_db.mineraux;
+ALTER TABLE citevolcan_db.mineraux DROP FOREIGN KEY fk_fam;
 TRUNCATE table citevolcan_db.mineraux;
+TRUNCATE table citevolcan_db.famille;
 
 ('',1,$1),
