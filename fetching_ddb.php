@@ -48,14 +48,14 @@ $link = connectDB("localhost","root","111111","citevolcan_db");
 fetchDB($link);
 closeDB($link);
 
-for ($i=0; $i <=sizeof($id);$i++){
-	echo "<tr><td>".$id[$i]."</td><td>".$nom[$i]."</td><td>".$famille[$i]."</td><td>".$image_path[$i]."</td><td></br>";
-}
+// for ($i=0; $i <=sizeof($id);$i++){
+// 	echo "<tr><td>".$id[$i]."</td><td>".$nom[$i]."</td><td>".$famille[$i]."</td><td>".$image_path[$i]."</td><td></br>";
+// }
 
-echo "</br>";
-for ($i=0; $i <=sizeof($id);$i++){
-echo "<img src=".$image_path[$i].">";
-}
+// echo "</br>";
+// for ($i=0; $i <=sizeof($id);$i++){
+// echo "<img src=".$image_path[$i].">";
+// }
 ?>
 
 
