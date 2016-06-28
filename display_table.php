@@ -8,7 +8,7 @@ $i=1;
 	$i++;
 }
 
-echo "<tr style='display:table-row'><td colspan='7'><button class='alert hollow button' style='font-size: 2rem; padding: 0.2em 4.5em; margin:0;'>RETOUR</button></td></tr>";
+echo "<tr style='display:table-row'><td colspan='7'><button class='alert hollow button' id='recommencer' style='font-size: 2rem; padding: 0.2em 4.5em; margin:0;'>RETOUR</button></td></tr>";
 echo "</table></div>";
 
 ?>
