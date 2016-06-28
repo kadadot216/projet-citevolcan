@@ -66,7 +66,7 @@ Actualiser();
 function callImgMatching() {
    $.ajax({
   type:"POST",
-  url: "imgMatch3.php",
+  url: "imgMatch.php",
   data: {dataString: dataURL},
 
   success: function(response){
