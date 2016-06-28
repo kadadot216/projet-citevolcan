@@ -52,6 +52,13 @@ NAV-DESKTOP
 		background-color: rgba(255,255,255,0.05);
 	}
 
+	.class-button-logo{
+		background: url("../img/logo2.jpg") no-repeat 0 -2px transparent;!important
+		float: left;
+		padding-left:72px;
+	}
+
+
 /* - - - - - - - - - - - - - - - - - - - - 
 HERO
 - - - - - - - - - - - - - - - - - - - - */
@@ -103,10 +110,6 @@ HERO
 		top:40%
 }
 
-tr.noBorder td {
-	border: 0; 
-	background-color: transparent;
-}
 
 /* - - - - - - - - - - - - - - - - - - - - 
 MAIN SECTION

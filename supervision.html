@@ -1,0 +1,119 @@
+ <style type="text/css">
+.big-font {
+  font-size: 2em;
+}
+ </style>
+
+    <div id="supervise">
+      <h1>Graphes générés par RRDTool</h1>
+
+        <table border=0 cellpadding=0 cellspacing=10>
+
+          <tr>
+          <td><p class="big-font">
+            <b>Charge CPU</b>
+          </p><br>  
+          <a href="#"><img id="cpu_img" src="graphs/cpu-3h.png" border=1 /></a><br>
+          <small><!--#flastmod file="syls-virtualbox_cpu.html" --></small>
+          </td>
+          <td><p class="big-font">
+            <b>RAM</b>
+          </p><br>  
+          <a href="#"><img border=1 alt="" id="memoire_img" src="graphs/memoire-3h.png"  /></a><br>
+          <small><!--#flastmod file="syls-virtualbox_tcp.html" --></small>
+          </td>
+          </tr>
+          <tr>
+            <td>
+            <button class="button toggle" id="cpu-3h">Sur 3 heures</button>
+            <button class="button toggle" id="cpu-1d">Sur 1 jour</button>
+            <button class="button toggle" id="cpu-1w">Sur 1 semaine</button>
+            </td>
+            <td>
+            <button class="button toggle" id="memoire-3h">Sur 3 heures</button>
+            <button class="button toggle" id="memoire-1d">Sur 1 jour</button>
+            <button class="button toggle" id="memoire-1w">Sur 1 semaine</button>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="big-font">
+            <b>Trafic TCP</b>
+          </p><br>  
+          <a href="#"><img border=1 alt="" id="trafic_tcp_img" src="graphs/trafic_tcp-3h.png"  /></a><br>
+          <small><!--#flastmod file="syls-virtualbox_tcp.html" --></small></td>
+            <td><p class="big-font">
+            <b>Traffic sur <i>eth0</i></b>
+          </p><br>  
+          <a href="#"><img id="trafic_eth0_img"  src="graphs/trafic_eth0-3h.png" border=1 /></a><br>
+          <small><!--#flastmod file="syls-virtualbox_cpu.html" --></small></td>
+          </tr>
+          <tr>
+            <td>
+            <button class="button toggle" id="trafic_tcp-3h">Sur 3 heures</button>
+            <button class="button toggle" id="trafic_tcp-1d">Sur 1 jour</button>
+            <button class="button toggle" id="trafic_tcp-1w">Sur 1 semaine</button>
+            </td>
+            <td>
+            <button class="button toggle" id="trafic_eth0-3h">Sur 3 heures</button>
+            <button class="button toggle" id="trafic_eth0-1d">Sur 1 jour</button>
+            <button class="button toggle" id="trafic_eth0-1w">Sur 1 semaine</button>
+            </td>
+          </tr>
+</table>
+    </div>
+  <script type="text/javascript">
+$(document).ready(function () {
+  var normal={width: "640px",height: "480px"};
+  var large={width: "1280px",height: "960px"};
+  var small={width: "480px",height: "360px"};
+// for (i=0 ; i < $(document).find('img').length; i++) {
+//   var countable[i]=1;
+// }
+  var count=1;
+  $('img').css(normal);
+$('img').on('click',function(e){
+  e.preventDefault();
+  if (count == 1) {
+    $('img').animate(small);
+    $(this).animate(large);
+  } else {
+        $('img').animate(normal);
+  }
+            count = 1-count;
+});
+});
+
+$('#cpu-3h, #cpu-1d, #cpu-1w').on('click', function(){
+  var patt = /(graphs\/)(.*)(\.png)/g;
+  var item = document.getElementById('cpu_img');
+  var selectedId = $(this)[0].id;
+  item.src = item.src.replace(patt, '$1'+selectedId+'$3');
+  console.log(item.src);
+});
+
+$('#memoire-1d, #memoire-1w,#memoire-3h').on('click', function(){
+  var patt = /(graphs\/)(.*)(\.png)/g;
+  var item = document.getElementById('memoire_img');
+  var selectedId = $(this)[0].id;
+  item.src = item.src.replace(patt, '$1'+selectedId+'$3');
+  console.log(item.src);
+});
+
+$('#trafic_tcp-3h, #trafic_tcp-1d, #trafic_tcp-1w').on('click', function(){
+  var patt = /(graphs\/)(.*)(\.png)/g;
+  var item = document.getElementById('trafic_tcp_img');
+  var selectedId = $(this)[0].id;
+  item.src = item.src.replace(patt, '$1'+selectedId+'$3');
+  console.log(item.src);
+});
+
+$('#trafic_eth0-3h, #trafic_eth0-1d, #trafic_eth0-1w').on('click', function(){
+  var patt = /(graphs\/)(.*)(\.png)/g;
+  var item = document.getElementById('trafic_eth0_img');
+  var selectedId = $(this)[0].id;
+  item.src = item.src.replace(patt, '$1'+selectedId+'$3');
+  console.log(item.src);
+});
+
+
+  </script>

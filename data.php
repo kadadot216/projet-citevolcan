@@ -37,7 +37,7 @@ if ($imgPng !== false) {
     imagejpeg($imgPng);
     $contents =  ob_get_contents();
     ob_end_clean();
-    echo "<img src='data:image/jpeg;base64,".base64_encode($contents)."' />";
+    echo "data:image/jpeg;base64,".base64_encode($contents);
     imagedestroy($imgPng);
 
 
