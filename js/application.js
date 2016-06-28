@@ -70,7 +70,7 @@ function callImgMatching() {
   data: {dataString: dataURL},
 
   success: function(response){
-    $('#webcam').html(response);
+    analyseCallback(response);
   },
   error: function(err){
     console.log(err);
@@ -164,10 +164,7 @@ var loadApp = function() {
       loadAllDOM();
   getStream();
 
-  $("#webcam").animate({'height':'480px',
-    'width':'640px',
-    'margin':'0 40%'},
-    1000);
+
     }); 
 };
 

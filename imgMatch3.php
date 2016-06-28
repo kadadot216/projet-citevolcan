@@ -1,33 +1,58 @@
 <style type="text/css">
-	.tContainer {
+#domresults {
 		width: 350px;
+		float:right;
+		margin-right: 20%;
+		margin-top: -5%;
 	}
 	.thumb {
-		width: 350px;
-		height: 100px;
-		position: relative;
-
+		height: 80px;
+		font-size:1.3em;
+		color: white;
+		font: italic bold georgia, sans-serif;
+		padding-left: 20px;
+		padding-top: 20px;
 	}
 	.thumb:hover {
-		height: 437px;
+		height: 400px;
 	}
-	.insideThumb tr, .insideThumb td {
-		padding: 0;
-		margin:0;
-		border: 3px;
-		background-color: #AAAAAA;
-		width: 350px;
+	.insideThumb table,
+	.insideThumb tr,
+	.insideThumb td{
+		border-collapse:separate !important;
+		border-spacing: 0 !important;
 	}
-	.numero {
-		font-size:2em;
-		color: #EEE;
-		position: absolute; 
-		top: 100px;
+	.insideThumb td{
+		background-color: rgba(221,221,221,0.5) !important;
+		border-collapse: separate !important;
+		border: 0 !important;
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	.tNom{
+		font-size:1.3em;
+		font: arial, sans-serif;
+		color: #222;
+	}
+	.tFam{
+		font-size:1.1em;
+		font: italic bold georgia, sans-serif;
+		color: #E40;
+	}
+	.tType{
+		font-size:1em;
+		font: italic georgia, sans-serif;
+		color: #33E;
+	}
+	.tDiff{
+		font-size:.9em;
+		font: arial, sans-serif;
+		color: #844;
 	}
 </style>
 <?php  
 
-include_once('fetching_ddb.php');
+include_once('fetching_ddb2.php');
 
 $inputdata = $_POST['dataString'];
 $file = 'tmp/match.jpeg';
@@ -48,30 +73,16 @@ chmod($file, 0777);
 // echo "</br>";
 $cresults = array();
 for ($i=0; $i <=sizeof($id)-1;$i++){
-$handle = popen('opencv_search/match_img32 opencv_search/lena.jpg '.$image_path[$i] ,"r");
+$handle = popen('opencv_search/match_img64 opencv_search/lena.jpg '.$image_path[$i] ,"r");
 $cresults[$i]['result'] = intval(fread($handle, 2096));
 $cresults[$i]['id'] = $i;
 pclose($handle);
 }
-// echo $output[0];
-// echo $output[0];
-// print_r($cresults);
-// echo $inputdata;
+
 $cresults = array_filter($cresults);
-$cresults = Tri_a_bulle($cresults);
+$cresults = triClassement($cresults);
 
-// echo "<br/><br/>";
-
-// print_r($cresults);
-
-// echo "<br/><br/>";
-
-// foreach ($cresults as $value)
-// {
-// 	echo $value['result']." ";
-// }
-
-function Tri_a_bulle($table)
+function triClassement($table)
 {
 	$taille = count($table);
 
@@ -94,15 +105,18 @@ function echange(&$T,$a,$b)
 }
 
 	
-
+echo "<div id='domresults'>";
 $i=1;
  foreach ($cresults as $value) {
  	if ($i<4){
-	echo "<div class='tContainer'><div  class='thumb' style='background: url(".$image_path[$value['id']].");'></div><span class='numero'>".$i."</span><div class='insideThumb'><table><tr><td><p>Nom : ".$nom[$value['id']]."</p></td></tr><tr><td><p>Famille : ".$famille[$value['id']]."</p></td></tr><tr><td><p>diff  : ".$value['result']."</p></td></tr></table>
+	echo "<div class='tContainer'><div  class='thumb' style='background: url(".$image_path[$value['id']].") no-repeat;'> ".$i."</div><div class='insideThumb'><table><tr><td><p class='tNom'>Nom : ".$nom[$value['id']]."</p></td></tr><tr><td><p class='tFam'>Famille : ".$famille[$value['id']]."</p></td></tr><tr><td><p class='tType'>Type : ".$type[$value['id']]."</p></td></tr><tr><td><p class='tDiff'>diff  : ".$value['result']."</p></td></tr></table>
 	</div></div>";
 	$i++;
  	}
 }
+echo "<td style='padding:0; width=350px;'><button class='info button' id='classement' style='font-size: 1.2rem; padding: 0.2em 4.5em; margin:0;'>Voir le tableau complet</button></td>";
+echo "</div>";
 
+include_once("display_table.php");
 
 ?>

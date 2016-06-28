@@ -42,3 +42,8 @@ Lundi 27/06/2016 - 00:33:29: Plugin Peaufiné!
 NOICE :^)
 
 00:52:56 : Réussi à organiser par id l'image le plus ressemblant à celui le moins ressemblant !
+
+Mardi 28/06/2016 - 18:28:50 : Youpi! réussi à fixer le plugin de timestamp!
+
+18:29:06 : 
+Réussi à fixer le problème du css

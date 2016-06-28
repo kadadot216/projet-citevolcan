@@ -2,6 +2,11 @@
 // 	}());
 function loadAllDOM(){
 
+	$("#webcam").animate({'height':'480px',
+	  'width':'640px',
+	  'margin':'0 40%'},
+	  1000);
+
 	var $btnCapture = $("div.next-to > a.capture"),
 	$divNextTo =  $("div.next-to"),
 	$btnOui = $("<a href='#' class='btn-perso2 hollow success button'>Oui</a>"),
@@ -51,8 +56,6 @@ function loadAllDOM(){
 	$($btnOui).on("click", goToEtapeTwo);
 
 
-
-
 	function yesNoConfirmation(){
 		/*		alert("YOLO")*/
 		/*	  event.preventDefault();*/
@@ -92,7 +95,7 @@ function loadAllDOM(){
 	  		Slider();
 	  		// ZoomImage();
 	  		$(".etSValid").on('click', function () {
-	  			goToEtapeThree();
+	  			callImgMatching();
 	  		});
 	  		$(".etSRetour").on('click', function () {
 	  			$btnCapture.animate({'right':'120%'});
@@ -102,8 +105,25 @@ function loadAllDOM(){
 	  	});
 	  }
 
-	  function goToEtapeThree() {
-	  	callImgMatching();
-	  }
+	  window.analyseCallback = function(display) {
+	  	$("h1").text("3 - Résultat et correspondance des analyses");
+	    	$divNextTo.slideUp();
+	    	$('#webcam').animate({'margin':'5% 5%'},
+	    1000,function(){
+	    	console.log(display);
+	    	$('#webcam').css({'float':'left'},{'position':'absolute'});
+	    	$(display).insertAfter('#webcam');
+	    	// $('#myCanvas').append("<p> Votre Image </p>");
+	    	$("#fulltable").hide();
+	    $('#classement').on('click',function(){
+	    	$('#domresults').slideUp(function(){
+	    	$("#fulltable").slideDown();
+	    	$('#recommencer').on('click',loadApp);
+	    	});
+	    });
+	    });
+	    };
 
-	};
+
+
+	}
