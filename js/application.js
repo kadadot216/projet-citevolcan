@@ -6,6 +6,7 @@ var apachePrefix = window.location.protocol + "//" + window.location.hostname + 
 var dataPreview;
 var dataURL;
 
+
 var getStream = function()
 {
   $('#webcam').html("<img src='roche.jpg' />");
@@ -21,6 +22,7 @@ var getCanvas = function() {
     success: function(data){
       drawCanvas(data);
       dataPreview = data.replace("data:image/jpeg;base64,","");
+
     },
     error: function(err) {
       console.table(err);
@@ -62,6 +64,7 @@ Actualiser();
 
 
 } // fin slider()
+
 
 function callImgMatching() {
    $.ajax({
@@ -113,7 +116,6 @@ function Actualiser()
     // console.log(data);
     drawCanvas(data);
     dataURL = data.replace("data:image/jpeg;base64,","");
-
   },
   error: function(err){
     console.log(err);
@@ -163,7 +165,6 @@ var loadApp = function() {
     $(".hero > .wrap").load("app.html",function(){
       loadAllDOM();
   getStream();
-
 
     }); 
 };

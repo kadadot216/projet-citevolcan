@@ -29,12 +29,10 @@ NAV-DESKTOP
 	line-height: 80px;
 }
 
-/* Juste recopy the strongest rule in Inspector then paste it there */
 /*.top-bar ul { 
 	background-color: white;
 	}*/
 
-	/*But we could do it especially with an user defined node that is the parent of the node*/
 	.nav-desktop .menu-desktop {
 		line-height: 80px;
 		background-color: transparent;

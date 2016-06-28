@@ -10,16 +10,20 @@ $inputdata = $_POST['dataString'];
 
 $inputdata = base64_decode($inputdata);
 
+
 $imgJpeg = imagecreatefromstring($inputdata);
+
 
 
 if ($G == 1)
 {
     imagefilter($imgJpeg, IMG_FILTER_GRAYSCALE);
+
 }
 
 if ($N == 1)
 {
+
     imagefilter($imgJpeg, IMG_FILTER_NEGATE );
 
 }
@@ -30,8 +34,6 @@ imagefilter($imgJpeg, IMG_FILTER_SMOOTH,  $nettete);
 
 
 
-
-
 if ($imgJpeg !== false) {
     ob_start();
     imagejpeg($imgJpeg);
@@ -39,7 +41,6 @@ if ($imgJpeg !== false) {
     ob_end_clean();
     echo "data:image/jpeg;base64,".base64_encode($contents);
     imagedestroy($imgJpeg);
-
 
 }
 else {
