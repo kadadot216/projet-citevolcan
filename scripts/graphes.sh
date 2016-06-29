@@ -16,9 +16,9 @@ Création des graphes
 FIN
 date_immediate=$(date +%s)
 Machine=$(echo "$HOSTNAME")
-ICI=$(pwd)
-doss_image="$ICI/../graphs/"
-doss_rrd="$ICI/../rrdtool/"
+ICI=/var/www/projet-citevolcan
+doss_image="$ICI/graphs/"
+doss_rrd="$ICI/rrdtool/"
 mkdir -p $doss_image
 mkdir -p $doss_rrd
 

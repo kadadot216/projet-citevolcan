@@ -9,11 +9,11 @@ var dataURL;
 
 var getStream = function()
 {
-  $('#webcam').html("<img src='roche.jpg' />");
+  $('#webcam').html("<img src='"+apachePrefix+"/?action=stream' />");
 };
 
 var getCanvas = function() {
-  var URL = "roche.jpg";
+  var URL = apachePrefix+"/?action=snapshot";
   // ça va servir pour créer un historique avec une BDD
   $.ajax({
     type: 'POST',

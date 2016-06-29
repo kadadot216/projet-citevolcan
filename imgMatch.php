@@ -73,7 +73,7 @@ chmod($file, 0777);
 // echo "</br>";
 $cresults = array();
 for ($i=0; $i <=sizeof($id)-1;$i++){
-$handle = popen('opencv/match_img64 '.$file.' '.$image_path[$i] ,"r");
+$handle = popen('opencv/match_img32 '.$file.' '.$image_path[$i] ,"r");
 $cresults[$i]['result'] = intval(fread($handle, 2096));
 $cresults[$i]['id'] = $i;
 pclose($handle);
