@@ -15,14 +15,12 @@ $imgJpeg = imagecreatefromstring($inputdata);
 
 
 
-if ($G == 1)
-{
+if ($G == 1) {
     imagefilter($imgJpeg, IMG_FILTER_GRAYSCALE);
 
 }
 
-if ($N == 1)
-{
+if ($N == 1) {
 
     imagefilter($imgJpeg, IMG_FILTER_NEGATE );
 

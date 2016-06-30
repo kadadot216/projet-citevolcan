@@ -30,17 +30,17 @@ function loadAllDOM(){
 	 "</tr>" +
 	 "<tr>" +
 	 "<td><input type='checkbox' name='checkGreyscale' id='checkGreyscale' /></td>" +
-	 "<td>Balance des blancs</td>" +
+	 "<td>Niveaux de gris</td>" +
 	 "</tr>" +
 	 "<tr>" +
 	 "<td><input type='checkbox' name='checkNegate' id='checkNegate' /></td>" +
 	 "<td>Négatif</td>" +
 	 "</tr>" +
 	 "<tr>" +
-	 "<td colspan='2' style='padding:0;'><button class='success button etSValid' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Lancer l'analyse d'image</button></td>" +
+	 "<td colspan='2' style='padding:0;'><button class='success button etSValid' style='font-size: 1.5rem; padding: 0.6em;width:350px; margin:0;'>Lancer l'analyse</button></td>" +
 	 "</tr>" +
 	 "<tr>" +
-	 "<td colspan='2' style='padding:0;'><button class='alert button etSRetour' style='font-size: 1.7rem; padding: 0.2em 4.5em; margin:0;'>Retour</button></td>" +
+	 "<td colspan='2' style='padding:0;'><button class='alert button etSRetour' style='font-size: 1.7rem; padding: 0.2em ;width:350px; margin:0;'>Retour</button></td>" +
 	 "</tr>" +
 	 "</table>" +
 	 "</div>" +
@@ -95,6 +95,9 @@ function loadAllDOM(){
 	  		Slider();
 	  		// ZoomImage();
 	  		$(".etSValid").on('click', function () {
+	  			$("#bright, #contrast, #nett, #checkGreyscale, #checkNegate").prop('disabled',true);
+	  			$(".etSValid").text("En cours, veuillez patienter...").prop('disabled',true);
+	  			$(".etSRetour").slideUp();
 	  			callImgMatching();
 	  		});
 	  		$(".etSRetour").on('click', function () {
@@ -112,6 +115,7 @@ function loadAllDOM(){
 	    1000,function(){
 	    	console.log(display);
 	    	$('#webcam').css({'float':'left'},{'position':'absolute'});
+	    	$('#MyCanvas').css({'width':'500px'},{'height':'500px'});
 	    	$(display).insertAfter('#webcam');
 	    	// $('#myCanvas').append("<p> Votre Image </p>");
 	    	$("#fulltable").hide();

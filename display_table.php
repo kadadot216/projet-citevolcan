@@ -1,10 +1,10 @@
 <?php  
 echo "<div id='fulltable'><table>";
 	
-echo "<tr><td>CLASSEMENT</td><td>ID BDD</td><td>NOM MINERAUX</td><td>FAMILLE MINERAUX</td><td>TYPE MINERAUX</td><td>SCORE DIFF</td><td>IMAGE</td></tr>";
+echo "<tr><td>CLASSEMENT</td><td>NOM MINERAL</td><td>FAMILLE MINERAUX</td><td>TYPE MINERAUX</td><td>SCORE DIFF<br/><span style='font-size:8pt;'>Ce score indique une différence de caractéristiques<br/> communes entre l'image relevée et l'image de la BDD</span></td><td>IMAGE</td></tr>";
 $i=1;
  foreach ($cresults as $value) {
-	echo "<tr><td>".$i."</td><td>".$id[$value['id']]."</td><td>".$nom[$value['id']]."</td><td>".$famille[$value['id']]."</td><td>".$type[$value['id']]."</td><td>".$value['result']."</td><td><img width='200' src=".$image_path[$value['id']]."></td></tr>";
+	echo "<tr><td>".$i."</td><td>".$nom[$value['id']]."</td><td>".$famille[$value['id']]."</td><td>".$type[$value['id']]."</td><td>".$value['result']." PTS</td><td><img width='200' src=".$image_path[$value['id']]."></td></tr>";
 	$i++;
 }
 

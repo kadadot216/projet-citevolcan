@@ -178,3 +178,18 @@ MEDIA QUERIES
 		display: none;
 	}
 }
+
+/* - - - - - - - - - - - - - - - - - - - - 
+docmain.html
+- - - - - - - - - - - - - - - - - - - - */
+
+.petrologieDoc {
+	background: url('../img/logodoc.jpg');
+	cursor: pointer;
+	height: 240px;
+	width: 320px;
+	color: #EEE;
+	font-size:1.5rem;
+	border-radius: 11%;
+	padding-top:10px;
+  }
