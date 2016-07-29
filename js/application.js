@@ -17,7 +17,7 @@ var getCanvas = function() {
 	var URL = apachePrefix+"/?action=snapshot";
 	$.ajax({
 		type: 'POST',
-		url:'img.php',
+		url:'php/img.php',
 		data:{dataURL:URL},
 		success: function(data){
 			drawCanvas(data);
@@ -70,7 +70,7 @@ function Slider() {
 function callImgMatching() {
 	$.ajax({
 		type:"POST",
-		url: "imgMatch.php",
+		url: "php/imgMatch.php",
 		data: {dataString: dataURL},
 
 		success: function(response){
@@ -105,7 +105,7 @@ function Actualiser()
 
 	$.ajax({
 		type:"POST",
-		url: "data.php",
+		url: "php/data.php",
 		data: {dataString: dataPreview,
 			brightness: brightVal,
 			contrast: contrVal,
