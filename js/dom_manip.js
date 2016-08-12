@@ -127,7 +127,4 @@ function loadAllDOM(){
 	    });
 	    });
 	    };
-
-
-
 	}
