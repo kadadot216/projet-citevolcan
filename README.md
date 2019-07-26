@@ -1,4 +1,4 @@
-# PROJET-CITEVOLCAN
+# (DEPRECATED) PROJET-CITEVOLCAN
 
 Ce projet a été réalisé dans le cadre du projet technique de la 2ème année de BTS.
 
@@ -76,3 +76,5 @@ Dans le dossier scripts/ lancer ``install_supervision.sh`` et suivre les procéd
 Ce script permet d'initialiser les bases rrdtool et de rentrer les commandes dans le crontab qui permettra d'actualiser les graphes de surveillance.
 
 Avant d'accéder à ``127.0.0.1/projet-citevolcan``, créer la base de donnée *citevolcan_db*. Le script ``scripts/sql_commands.sql`` contient les démarches nécéssaires.
+
+**EDIT** : Ce projet est archivé car certaines dépendances ne sont plus d'actualités
